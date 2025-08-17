@@ -1,0 +1,9 @@
+Odoo UI Icons - verze 1.2
+
+Credity
+- https://www.carbondesignsystem.com/guidelines/icons/library/
+- https://github.com/carbon-design-system/carbon-icons
+- https://github.com/google/material-design-icons
+
+
+Vytvořeno společností SRI pomocí IconMoon (https://icomoon.io/).

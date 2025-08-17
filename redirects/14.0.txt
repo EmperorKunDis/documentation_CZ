@@ -1,0 +1,189 @@
+# administrace/instalace
+
+administration/instalace/instalace.rst
+
+# správa, údržba
+
+administrace/správa/online.rst administrace/správa/odoo_online.rst
+
+# administrativa/aktualizace
+
+administrace/aktualizace/on-line hosting.rst administrace/aktualizace.rst
+administrace/aktualizace/faq.rst administrace/aktualizace.rst
+administrace/aktualizace/odoo_online.rst administrace/aktualizace.rst
+administrace/aktualizace/odoo_sh.rst administrace/aktualizace.rst
+administration/upgrade/on-premise.rst administration/upgrade.rst
+
+# aplikace/účetnictví
+
+aplikace/účetnictví/banka/výpisy z banky.rst obsah/aplikace/účetnictví/banka/výpisy z banky.rst
+applications/finance/accounting/bank/feeds/ponto.rst applications/finance/accounting/bank/bank_synchronization/ponto.rst                           # feeds/* --> bank_synchronization/*
+applications/finance/accounting/bank/feeds/saltedge.rst applications/finance/accounting/bank/bank_synchronization/saltedge.rst                     # feeds/* --> bank_synchronization/*
+aplikace/finance/účetnictví/banka/různé/mezi bankami aplikace/finance/účetnictví/banka/mezi bankami
+applications/finance/accounting/fiscal_localizations.rst applications/finance/fiscal_localizations.rst                                            # /účetnictví/ --> /
+applications/finance/accounting/fiscal_localizations/localizations/argentina.rst applications/finance/fiscal_localizations/argentina.rst           # /accounting/fiscal_localizations/localizations/* --> /fiscal_localizations/*
+applications/finance/accounting/fiscal_localizations/localizations/australia.rst applications/finance/fiscal_localizations/australia.rst           # /accounting/fiscal_localizations/localizations/* --> /fiscal_localizations/*
+applications/finance/accounting/fiscal_localizations/localizations/chile.rst applications/finance/fiscal_localizations/chile.rst                   # /accounting/fiscal_localizations/localizations/* --> /fiscal_localizations/*
+applications/finance/accounting/fiscal_localizations/localizations/colombia.rst applications/finance/fiscal_localizations/colombia.rst             # /accounting/fiscal_localizations/localizations/* --> /fiscal_localizations/*
+applications/finance/accounting/fiscal_localizations/localizations/colombia_ES.rst applications/finance/fiscal_localizations/colombia.rst          # /accounting/fiscal_localizations/localizations/colombia_ES --> /fiscal_localizations/colombia
+applications/finance/fiscal_localizations/colombia_ES.rst applications/finance/fiscal_localizations/colombia.rst                                   # colombia_ES --> colombia
+applications/finance/accounting/fiscal_localizations/localizations/france.rst applications/finance/fiscal_localizations/france.rst                 # /accounting/fiscal_localizations/localizations/* --> /fiscal_localizations/*
+applications/finance/accounting/fiscal_localizations/localizations/germany.rst applications/finance/fiscal_localizations/germany.rst               # /accounting/fiscal_localizations/localizations/* --> /fiscal_localizations/*
+aplikace/finance/účetnictví/daňové lokalizace/lokalizace/Indonésie.rst aplikace/finance/daňové lokalizace/Indonésie.rst           # /accounting/fiscal_localizations/localizations/* --> /fiscal_localizations/*
+applications/finance/accounting/fiscal_localizations/localizations/italy.rst applications/finance/fiscal_localizations/italy.rst                   # /accounting/fiscal_localizations/localizations/* --> /fiscal_localizations/*
+applications/finance/accounting/fiscal_localizations/localizations/italy_IT.rst applications/finance/fiscal_localizations/italy.rst                # italy_IT -> italy
+applications/finance/accounting/fiscal_localizations/localizations/luxembourg.rst applications/finance/fiscal_localizations/luxembourg.rst         # /accounting/fiscal_localizations/localizations/* --> /fiscal_localizations/*
+aplikace/finance/účetnictví/daňové lokalizace/lokalizace/mexiko.rst aplikace/finance/daňové lokalizace/mexiko.rst                 # /accounting/fiscal_localizations/lokalizace/* --> /fiscal_localizations/*
+applications/finance/accounting/fiscal_localizations/localizations/nizozemsko.rst applications/finance/fiscal_localizations/nizozemsko.rst       # /accounting/fiscal_localizations/localizations/* --> /fiscal_localizations/*
+applications/finance/accounting/fiscal_localizations/localizations/peru.rst applications/finance/fiscal_localizations/peru.rst                     # /accounting/fiscal_localizations/localizations/* --> /fiscal_localizations/*
+applications/finance/accounting/fiscal_localizations/localizations/es.rst applications/finance/fiscal_localizations/es.rst                   # /accounting/fiscal_localizations/localizations/* --> /fiscal_localizations/*
+applications/finance/accounting/fiscal_localizations/localizations/czech_republic.rst applications/finance/fiscal_localizations/czech_republic.rst       # /accounting/fiscal_localizations/localizations/* --> /fiscal_localizations/*
+applications/finance/accounting/fiscal_localizations/localizations/united_kingdom.rst applications/finance/fiscal_localizations/united_kingdom.rst # /accounting/fiscal_localizations/localizations/* --> /fiscal_localizations/*
+applications/finance/accounting/fiscal_localizations/overview/fiscal_localization_packages.rst applications/finance/fiscal_localizations.rst       # /accounting/fiscal_localizations/overview/* --> fiscal_localizations
+applications/finance/accounting/fiscal_localizations/overview/localizations_list.rst applications/finance/fiscal_localizations.rst                 # /accounting/fiscal_localizations/overview/* --> fiscal_localizations
+aplikace/účetnictví/základy/memento.rst aplikace/účetnictví/základy/tabulka-srovnání.rst                                                   # memento -> tabulka srovnání
+aplikace/Finance/Účetnictví/Pohledávky/Faktury dodavatelů/Spravovat.rst aplikace/Inventura a MRP/Nákup/Správa obchodních případů/Správa.rst # (#3302)
+
+# aplikace/obecné
+
+aplikace/obecné/kalendáře/outlook/outlook_kalendář.rst aplikace/produktivita/kalendář/outlook.rst           # obecné/kalendáře/outlook/outlook_kalendář -> produktivita/kalendář/outlook
+aplikace/obecné/kalendáře/google/google_calendar_credentials.rst aplikace/produktivita/kalendář/google.rst # obecné/kalendáře/google/google_calendar_credentials -> produktivita/kalendář/google
+aplikace/obecné/uživatelé/smazat účet.rst aplikace/obecné/uživatelé/odoo_účet.rst # obecné/uživatelé/smazat účet -> obecné/uživatelé/odoo_účet
+
+# applications/hr
+
+applications/hr/payroll/configuration.rst applications/hr/payroll.rst
+
+# Žádost o zápis do rejstříku
+
+applications/inventory_and_mrp/inventory/management/delivery/dropshipping.rst applications/inventory_and_mrp/inventory/shipping/operation/dropshipping.rst                                                  # /inventory/management/incoming/* --> /shipping/operation/*
+applications/inventory_and_mrp/inventory/management/incoming/handle_receipts.rst applications/inventory_and_mrp/inventory/management/shipments_deliveries/inventory_flow.rst                                # /inventory/management/incoming/* --> /management/shipments_deliveries/*
+applications/inventory_and_mrp/inventory/management/delivery/inventory_flow.rst applications/inventory_and_mrp/inventory/management/shipments_deliveries/inventory_flow.rst                                 # /inventory/management/delivery/* --> /management/shipments_deliveries/*
+applications/inventory_and_mrp/inventory/management/delivery/label_type.rst applications/inventory_and_mrp/inventory/shipping/operation/label_type.rst                                                      # /inventory/management/delivery/* --> /shipping/operation/*
+applications/inventory_and_mrp/inventory/management/delivery/one_step.rst applications/inventory_and_mrp/inventory/management/shipments_deliveries/receipts_delivery_one_step.rst                           # /inventory/management/delivery/* --> /management/shipments_deliveries/*
+applications/inventory_and_mrp/inventory/management/incoming/one_step.rst applications/inventory_and_mrp/inventory/management/shipments_deliveries/receipts_delivery_one_step.rst                           # /inventory/management/incoming/* --> /management/shipments_deliveries/*
+applications/inventory_and_mrp/inventory/management/delivery/three_steps.rst applications/inventory_and_mrp/inventory/management/shipments_deliveries/delivery_three_steps.rst                              # /inventory/management/delivery/* --> /management/shipments_deliveries/*
+applications/inventory_and_mrp/inventory/management/delivery/two_steps.rst applications/inventory_and_mrp/inventory/management/shipments_deliveries/receipts_delivery_two_steps.rst                         # /inventory/management/delivery/* --> /management/shipments_deliveries/*
+applications/inventory_and_mrp/inventory/management/incoming/three_steps.rst applications/inventory_and_mrp/inventory/management/shipments_deliveries/receipts_three_steps.rst                              # /inventory/management/incoming/* --> /management/shipments_deliveries/*
+applications/inventory_and_mrp/inventory/management/incoming/two_steps.rst applications/inventory_and_mrp/inventory/management/shipments_deliveries/receipts_delivery_two_steps.rst                         # /inventory/management/incoming/* --> /management/shipments_deliveries/*
+aplikace/Skladování a řízení zásob/Skladování/Strategie doplňování zásob/Virtuální sklady.rst aplikace/Skladování a řízení zásob/Skladování/Sklady/Doplnění zásob mezi sklady.rst
+aplikace/Inventura a MRP/Inventář/Dopravní trasy/Koncepty/Mezi sklady.rst aplikace/Inventura a MRP/Inventář/Správa/Sklad/Dodávka mezi sklady.rst
+
+# aplikace/marketing
+
+aplikace/marketing/sociální marketing/přehled/živý chat aplikace/marketing/sociální marketing/základy/SMS základy
+aplikace/marketing/sociální marketing/přehled/oznámení push.rst aplikace/marketing/sociální marketing/základy/SMS základy.rst
+aplikace/marketing/sociální marketing/přehled/vytváření příspěvků.rst aplikace/marketing/sociální marketing/základy/SMS základy.rst
+
+# příjem žádostí a prodej
+
+aplikace/prodej/CRM/získat kontakty/generovat z e-mailu.rst aplikace/prodej/CRM/získat kontakty/generovat kontakty.rst # (#986)
+aplikace/prodej/CRM/získat kontakty/generovat z webu.rst aplikace/prodej/CRM/získat kontakty/vygenerovat kontakty.rst # (#986)
+aplikace/prodej/pokladna/pokročilé funkce cen/slevové štítky.rst aplikace/prodej/cena/slevové štítky.rst
+aplikace/prodej/pokladna/doplňkové funkce cen/slevy.rst aplikace/prodej/ceny/slevy.rst                    # /advanced_pricing_features/* -> /pricing/*
+applications/sales/point_of_sale/advanced_pricing_features/loyalty.rst applications/sales/point_of_sale/pricing/loyalty.rst              # /advanced_pricing_features/* -> /pricing/*
+aplikace/prodej/obchodní místo/pokročilé funkce cen/ceník.rst aplikace/prodej/cena/ceník.rst                        # /advanced_pricing_features/* -> /pricing/*
+aplikace/prodej/příjem/belgické FDM/nastavení.rst aplikace/finance/daňové lokalizace/Belgie.rst
+aplikace/prodej/pokladna/přehled/začínáme.rst aplikace/prodej/pokladna.rst                                                          # pokladna/přehled/začínáme -> pokladna
+applications/sales/point_of_sale/overview/epos_ssc.rst applications/sales/point_of_sale/configuration/epos_ssc.rst                     # /overview/* -> /configuration/*
+aplikace/prodej/prodejna/přehled/https://www.rst.cz/aplikace/prodej/prodejna/konfigurace/https://www.rst.cz/aplikace/prodej/prodejna/konfigurace/*
+aplikace/prodej/pokladna/přehled/registrace aplikace/prodej/pokladna -> pokladna
+applications/sales/point_of_sale/payment/adyen.rst, applications/sales/point_of_sale/payment_methods/terminals/adyen.rst
+aplikace/prodej/příjem/platba/ingenico.rst aplikace/prodej/příjem/platební metody/terminály/ingenico.rst            # /plateb/* -> /platební metody/terminály/*
+applications/sales/point_of_sale/payment/six.rst applications/sales/point_of_sale/payment_methods/terminals/six.rst                     # /payment/* -> /payment_methods/terminals/*
+applications/sales/point_of_sale/payment/vantiv.rst applications/sales/point_of_sale/payment_methods/terminals/vantiv.rst                # /payment/* -> /payment_methods/terminals/*
+applications/sales/point_of_sale/restaurant/fiscal_position.rst applications/sales/point_of_sale/pricing/fiscal_position.rst             # /restaurant/* -> /pricing/*
+aplikace/prodej/příjem/restaurace/restaurace.rst aplikace/prodej/příjem/restaurace/podlahy-stoly.rst
+aplikace/prodej/příjem/restaurace/split.rst aplikace/prodej/příjem/restaurace/tisk faktur.rst
+aplikace/prodej/příjem/obchod/kontrola hotovosti.rst aplikace/prodej/příjem/cenotvorba/kontrola hotovosti.rst                      # /shop/* -> /cenotvorba/*
+aplikace/prodej/příjem/obchod/faktura.rst aplikace/prodej/příjem/daňové doklady.rst                                             # /faktura -> daňové doklady
+aplikace/prodej/příjem/obchod/multicashiers.rst aplikace/prodej/příjem/zaměstnanec_login.rst                                       # /obchod/multicashiers -> zaměstnanec_login
+aplikace/prodej/prodejna/obchod/reprint.rst aplikace/prodej/prodejna/faktury.rst                                                   # /obchod/reprint -> faktury
+aplikace/prodej/prodej/pokročilé/portál.rst aplikace/obecné/uživatelé/portál.rst
+
+# aplikace/služby
+
+aplikace/služby/fsm.rst aplikace/služby/field_service.rst                                                                              # fsm -> field_service
+aplikace/služby/fsm/helpdesk/plan_onsite.rst aplikace/služby/field_service/onsite_interventions.rst                     # fsm/helpdesk/plan_onsite -> field_service/onsite_interventions
+applications/services/fsm/sales/onsite_tasks_from_sales_orders.rst applications/services/field_service/onsite_interventions.rst     # fsm/sales/onsite_tasks_from_sales_orders -> field_service/onsite_interventions
+
+# přihlášky/dotazníky
+
+aplikace/marketing/průzkumy/přehled.rst aplikace/marketing/průzkumy.rst                                     # odstraňte složku s přehledem průzkumu
+aplikace/marketing/průzkumy/přehled/vytvořit.rst aplikace/marketing/průzkumy/vytvořit.rst            # odstraňte složku s přehledem průzkumu
+aplikace/marketing/průzkumy/přehled/skóre.rst aplikace/marketing/průzkumy/skóre.rst                    # odstraňte složku s přehledem průzkumu
+applications/marketing/surveys/overview/time_random.rst applications/marketing/surveys/time_random.rst   # odstraňte složku s přehledem průzkumu
+
+# aplikace/weby
+
+aplikace/weby/živé chaty/přehled/začínáme.rst aplikace/weby/živé chaty.rst
+aplikace/weby/živý chat/přehled/hodnocení.rst aplikace/weby/živý chat/hodnocení.rst
+aplikace/weby/živé chaty/přehled/odpovědi.rst aplikace/weby/živé chaty/odpovědi.rst
+aplikace/weby/web/optimalizace/google_analytics.rst aplikace/weby/web/reporting/google_analytics.rst                                    # optimalizace/* -> reporting/*
+aplikace/weby/web/optimalizace/dashboard google analytics.rst aplikace/weby/web/reporting/dashboard google analytics.rst
+aplikace/weby/web/optimalizace/sledovač odkazů.rst aplikace/weby/web/reporting/sledovač odkazů.rst                                                    # optimalizace/* -> reportování/*
+aplikace/weby/web/optimalizovat/SEO.rst aplikace/weby/web/stránky/SEO.rst                                                                        # optimalizovat/* -> stránky/*
+aplikace/weby/web/optimalizovat/unsplash.rst aplikace/weby/web/konfigurace/unsplash.rst                                                                   # optimalizovat/* -> konfigurace/*
+aplikace/weby/web/vydání/multi_website.rst aplikace/weby/web/konfigurace/multi_website.rst                                                    # vydání/* -> konfigurace/*
+aplikace/weby/webová stránka/publikovat/na místě_geografická IP adresa instalace.rst aplikace/weby/webová stránka/konfigurace/na místě_geografická IP adresa instalace.rst
+aplikace/weby/web/publikovat/přeložit.rst aplikace/weby/web/konfigurace/přeložit.rst
+
+# vývojář/jak na to
+
+developer/api/external_api.rst developer/reference/external_api.rst                                              # přehlednější dokumentace pro vývojáře
+developer/api/extract_api.rst developer/reference/extract_api.rst                                                   # přeorganizovat dokumentaci pro vývojáře
+developer/cli.rst developer/reference/cli.rst                                                                     # přehlednější dokumentace pro vývojáře
+developer/jak-na-to/backend.rst developer/návody/backend.rst                                                        # přehlednější dokumentace pro vývojáře
+Vývojář/jak na to/výcvik.rst Vývojář/návody/začínáme.rst                                                         # přeorganizovat dokumentaci pro vývojáře
+developer/jak-na-to/trenink-rozvoje/01_architektura.rst developer/návody/začínáme/01_architektura.rst            # přeorganizovat dokumentaci pro vývojáře
+developer/jak-na-to/trenink/02_setup.rst developer/návody/začínáme/02_setup.rst                                # přehled dokumentace pro vývojáře
+Vývojář/Jak na to/Školení/03_nová aplikace.rst Vývojář/Návody/Začínáme/03_nová aplikace.rst                      # přehlednější dokumentace pro vývojáře
+developer/jak-na-to/trenink-pro-rozvojare/04_základní-model.rst developer/návody/začínáme/04_základní-model.rst              # přeorganizovat dokumentaci pro vývojáře
+developer/jakto/trenink/05_bezpecnost.rst developer/návody/začínáme/05_bezpecnost.rst                    # přeorganizovat dokumentaci pro vývojáře
+vývojář/jak začít/první uživatelské rozhraní/06_prvniuzivatelskyrizeni.rst vývojář/návody/jak začít/06_prvniuzivatelskyrizeni.rst                    # reorganize the developer doc
+developer/jak-na-to/trenink-rozhrani/07_základní-pohledy.rst developer/návody/začínáme/07_základní-pohledy.rst               # přehodnotit dokumentaci pro vývojáře
+/rozvoj/jak_na_to/trenink/08_vztahy.rst                                                                    # přehled dokumentace vývojáře
+developer/jak-to-dělám/trénink-rozhraní/09_vypočítat_na_změnu.rst developer/návody/začínáme/09_vypočítat_na_změnu.rst  # reorganize the developer doc
+developer/jak_na_to/trenink/10_akcí.rst developer/návody/začínáme/10_akcí.rst                                   # přehlednější dokumentace pro vývojáře
+developer/jak-to-dělám/trénink-rozhraní/11_podmínky.rst developer/návody/začínáme/11_podmínky.rst                   # přeorganizovat dokumentaci pro vývojáře
+/rozvoj/jak-na-to/trenink/12_sprinkles.rst /návody/začínáme/12_sprinkles.rst                    # přehled vývoje
+developer/jak-na-to/trenink/13_dědičnost.rst developer/návody/začínáme/13_dědičnost.rst                    # přehlednější dokumentace pro vývojáře
+developer/jak-to-dělám/trénink-pro-rozvojáře/14_další modul.rst developer/návody/začínáme/14_další modul.rst          # přehodnotit dokumentaci pro vývojáře
+developer/jak-na-to/trenink-pro-rozvojáře/15_qwebintro.rst developer/návody/začínáme/15_qwebintro.rst                   # přehlednější dokumentace pro vývojáře
+Vývojář/Jak na to/Školení RD/16_Pravidla pro psaní dokumentace.rst Vývojář/Tutoriály/Začínáme/16_Pravidla pro psaní dokumentace.rst # reorganize the developer doc
+developer/jak-to-děláme/školení-pro-rozvojáře/B_acl_irrules.rst developer/návody/omezení přístupu k datům.rst                   #reorganizace dokumentace pro vývojáře
+developer/jak-na-to/trenink/C_data.rst developer/návody/definovat-modul-dat.rst                                   # přepracování dokumentace pro vývojáře
+developer/jak-na-to/trenink-rozhrani/e_unittest.rst developer/návody/jednotky-testu.rst                             # přehlednější dokumentace pro vývojáře
+/rozvoj/jak-na-to/trenink/j_reporty.rst /návody/pdf_reporty.rst                                                     # přehled dokumentace pro vývojáře
+Vývojář/jak dělat/školení/K_dashboard.rst Vývojář/návody/přístroje.rst                                             # přeorganizovat vývojové dokumentace
+developer/jak_na_to/web.rst developer/návody/web.rst                                                                # přehlednější dokumentace pro vývojáře
+Vývojář/jakto/webová stránka.rst Vývojář/návody/webová stránka.rst                                                        # přehodnotit dokumentace pro vývojáře
+developer/iot.rst developer/howtos/connect_device.rst                                                              # přehlednější dokumentace pro vývojáře
+
+# developer/ostatní
+
+developer/misc/api/external_api.rst developer/api/external_api.rst  # lepší umístění obsahu pro misc/ (#2350)
+
+# vývojář/návody
+
+developer/návody/začínáme/16_pravidla_pro_psaní_pozadavku.rst developer/návody/začínáme/16_konecne_slova.rst
+
+# legální
+
+právní/ostatní/cla.rst právní/cla.rst
+legal/licence/licence.rst
+
+# ostatní
+
+crm/optimize/mail_client_extension.rst aplikace/prodej/crm/optimize/outlook_extension.rst  # mail_client_extension -> outlook_extension | mail_client_extension je první odkaz, který se zobrazuje jako tip v Odoo 14, ale měl by být aktualizován a směřovat přímo na outlook_extension
+crm/optimize/google_calendar_credentials.rst aplikace/obecné/kalendáře/google/google_calendar_credentials.rst    # (#765)
+
+nákupy/objednávky/veřejné zakázky/smlouvy.rst aplikace/inventarizace a MRP/nákup/správa obchodních případů/smluv.rst   # (#823)
+nákup/nákupy/výběrové řízení/výzva k podání nabídky.rst aplikace/inventarizace a MRP/nákup/správa obchodů/smlouvy.rst # (#823)
+nákupy/nabídky/poptávky/3-cestový zápas/souborů inventury a MRP/nákup/správa obchodních případů/kontrola faktur.rst # (#829)
+nákupy/objednávky/nabídky/faktury.rst aplikace/Inventář a MRP/Nákup/Správa obchodů/Kontrola faktur.rst      # (#829)
+nákup/nákupy/hlavní/skladové zásoby/Inventura a MRP/Nákup/Produkty/skladové zásoby
+nákupní/dodací/toky/vypočítat datum.rst aplikace/Inventura a MRP/Skladování/Řízení zásob/Plánování/Datum plánu.rst # (#814)
+nákup/dodávky/toky/nákupní spouštěč.rst aplikace/Sklad a MRP/Nákup/Produkty/Dodání.rst
+nákup, doplňování zásob, toky, nastavení pravidel pro skladování - nákup/produkty/dodávání.rst aplikace Inventura a MRP / Nákup / Produkty / Dodávání.rst # (#814)
+nákupní/dodavatelské/víceobchodní/sestavení.rst aplikace/obecné/uživatelé/firmy.rst # (#814)

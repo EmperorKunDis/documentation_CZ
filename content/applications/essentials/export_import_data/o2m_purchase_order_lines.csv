@@ -1,0 +1,10 @@
+Datum objednávky, referenční číslo objednávky, dodavatel, cílová destinace, ceník, řádky objednávky / produkt, řádky objednávky / množství
+2012-12-15,PO00008,ASUSTeK,Stock,Default Purchase Pricelist,ADPT,20
+,,,,,,CARD,30
+,,,,,,C-Case,40
+2012-12-15,PO00009,Axelor,Stock,Default Purchase Pricelist,CD,5
+,,,,CPUa8,15
+2012-12-15,PO000010,Čína Export,Skladová zásoba,Standardní ceník nákupu,HDD SH-1,10
+,,,,,,HDD SH-2,20
+,,,,,,LAP-CUS,35
+,,,,,LAP-E 5,40

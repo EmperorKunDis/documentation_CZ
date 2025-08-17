@@ -1,0 +1,33 @@
+Odoo Enterprise Edition License verze 1.0
+
+Toto softwarové vybavení a související soubory (dále jen „software“) lze používat (spouštět)
+modifikované (upravené), provedené po úpravách) s platným Odoo Enterprise
+Předplatné pro správný počet uživatelů.
+
+S platným partnerství s Odoo S.A. jsou výše uvedená oprávnění
+a také uděleno, pokud je používání omezeno na testování nebo vývoj
+environmentální.
+
+Můžete vyvíjet moduly pro Odoo na základě softwaru a distribuovat je
+pod licencí vašeho výběru, pokud je kompatibilní s
+podmínky licence Odoo Enterprise Edition (například: LGPL, MIT nebo
+licence podobné tomuto (vlastní licence).
+
+Můžete používat moduly Odoo publikované pod jakoukoli licencí společně s
+Software, pokud je licence kompatibilní s podmínkami
+Odoo Enterprise License (včetně, ale nejen) všech modulů
+publikované na Odoo Apps Store (https://www.odoo.com/apps).
+
+Je zakázáno publikovat, distribuovat, udělovat podlicence nebo prodat kopie
+Software nebo upravené kopie softwaru.
+
+Veškeré kopírování a šíření obsahu je povoleno pouze s uvedením zdroje
+všechny kopie nebo podstatné části softwaru.
+
+SOFTWARE JE POSKYTOVÁN „JAK JE“, BEZ ZÁRUKY VŠECH DRUHŮ, EXPRESNÍCH NEBO IMPLIKOVANÝCH.
+VYPLÝVAJÍCÍ ZE SMLOUVY, VČETNĚ ALE NE OMEZENÉ NA ZÁRUKU ODPRODEJNOSTI.
+OMEZENÍ POUŽITÍ A NEPORUŠOVÁNÍ OCHRANNÝCH ZNAČEK. V ŽÁDNÉM PŘÍPADĚ NESMÍ
+AUTOŘI NEBO DRŽITELÉ PRÁV DÍLU SE NESMÍ ZA JAKÝKOLIV PŘEDMĚTNÝ ZÁVAZEK, ŠKODY ANEB JINÉ
+ZÁKONNÉ ZÁVAZKY V SOUVISLOSTI S KUPNÍ SMLOUVOU, NEBO JAKÝMKOLIV DALŠÍM PRÁVEM
+ZAHNUTÉ DO, VYVSTALÉ Z NEBO SPOJENÉ S TÍMTO SOFTWARKEM A POUŽITÍM
+OBCHODOVÁNÍ S PROGRAMOVÝM OBSAHEM.

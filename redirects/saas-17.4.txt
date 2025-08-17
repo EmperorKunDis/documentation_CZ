@@ -1,0 +1,6 @@
+# přispívání/dokumentace
+
+přispívání/dokumentace/rst_cheat_sheet.rst přispívání/dokumentace/rst_guidelines.rst
+
+
+applications/inventory_and_mrp/inventory/product_management/product_tracking/create_sn.rst applications/inventory_and_mrp/inventory/product_management/product_tracking/serial_numbers.rst  # Smazal jsem create_sn a sloučil obsah s serial_numbers

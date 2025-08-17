@@ -1,0 +1,107 @@
+
+<Objednávka xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns="urn:oasis:names:specification:ubl:schema:xsd:Order-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+<cbc:CustomizationID data-oe-model="ir.ui.view" data-oe-id="4828" data-oe-field="arch" data-oe-xpath="/t[1]/{urn:oasis:names:specification:ubl:schema:xsd:Order-2}Order[1]/{urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2}CustomizationID[1]">urn:fdc:peppol.eu:poacc:trns:order:3</cbc:CustomizationID>
+<cbc:ProfileID data-oe-model="ir.ui.view" data-oe-id="4828" data-oe-field="arch" data-oe-xpath="/t[1]/{urn:oasis:names:specification:ubl:schema:xsd:Order-2}Order[1]/{urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2}ProfileID[1]">urn:fdc:peppol.eu:poacc:bis:ordering:3</cbc:ProfileID>
+<cbc:ID>P00017</cbc:ID>
+<cbc:IssueDate>2025-04-03</cbc:IssueDate>
+
+
+<cac:Soubor>
+<cac:PartyName>
+<cbc:name>JÍT TUŠKOU</cbc:name>
+</cac:PartyName>
+<cac:Adresa>
+<cbc:Ulice>1034 Wildwood Street</cbc:Ulice>
+<cbc:CityName>Millersburg</cbc:CityName>
+<cbc:PoštovníZóna>44654</cbc:PoštovníZóna>
+<cbc:StátníSubentita>Ohio</cbc:StátníSubentita>
+<cac:Země>
+<cbc:KódIdentifikace>US</cbc:KódIdentifikace>
+
+
+<cac:DaniZPravidla>
+<cac:DaňovýSchémat>
+<cbc:ID>DPH</cbc:ID>
+
+
+<cac:Kontakt>
+<cbc:name>JÍT TUŠKOU</cbc:name>
+<cbc:Telefon>+1 555-555-5556</cbc:Telefon>
+
+</cac:Kontakt>
+
+
+
+<cac:Soubor>
+<cac:PartyName>
+<cbc:Name>Vaše společnost, Joel Willis</cbc:Name>
+</cac:PartyName>
+<cac:Adresa>
+<cbc:Ulice>858 Lynn Street</cbc:Ulice>
+<cbc:CityName>Bayonne</cbc:CityName>
+<cbc:PoštovníZóna>07002</cbc:PoštovníZóna>
+<cbc:Státní entita>New Jersey</cbc:Státní entita>
+<cac:Země>
+<cbc:KódIdentifikace>US</cbc:KódIdentifikace>
+
+
+<cac:Kontakt>
+<cbc:Name>Joel Willis</cbc:Name>
+<cbc:Telefon>(683) 556-5104</cbc:Telefon>
+<cbc:Elektronická pošta>joel.willis63@example.com</cbc:Elektronická pošta>
+</cac:Kontakt>
+
+
+
+<cac:Dodavatel>
+<cac:PartyName>
+<cbc:name>JÍT TUŠKOU</cbc:name>
+</cac:PartyName>
+<cac:Adresa>
+<cbc:Ulice>1034 Wildwood Street</cbc:Ulice>
+<cbc:CityName>Millersburg</cbc:CityName>
+<cbc:PoštovníZóna>44654</cbc:PoštovníZóna>
+<cbc:StátníSubentita>Ohio</cbc:StátníSubentita>
+<cac:Země>
+<cbc:KódIdentifikace>US</cbc:KódIdentifikace>
+
+
+<cac:Kontakt>
+<cbc:name>JÍT TUŠKOU</cbc:name>
+<cbc:Telefon>+1 555-555-5556</cbc:Telefon>
+
+</cac:Kontakt>
+</dodavatel>.
+
+
+<cbc:TaxAmount currencyID="USD">7,5</cbc:TaxAmount>
+
+
+<cbc:LineExtensionAmount currencyID="USD">50,00</cbc:LineExtensionAmount>
+<cbc:TaxExclusiveAmount currencyID="USD">50,00</cbc:TaxExclusiveAmount>
+<cbc:TaxInclusiveAmount currencyID="USD">57,50</cbc:TaxInclusiveAmount>
+<cbc:Platba CurrencyID="USD">57,50</cbc:Platba>
+
+
+<cac:LineItem>
+<cbc:ID>1</cbc:ID>
+<cbc:Quantity unitCode="C62">5.0</cbc:Quantity>
+<cbc:LineExtensionAmount currencyID="USD">50.0</cbc:LineExtensionAmount>
+<cac:Cena>
+<cbc:PriceAmount currencyID="USD">10.0</cbc:PriceAmount>
+<cbc:BaseQuantity jednotkaKód="C62">1</cbc:BaseQuantity>
+</cac:Cena>
+<cac:Item>
+<cbc:Název>Kancelářská lampa</cbc:Název>
+<cbc:Popis>Kancelářská lampa</cbc:Popis>
+<cac:Klasifikovaná daňová kategorie>
+<cbc:ID>S</cbc:ID>
+<cbc:Procento>15,0</cbc:Procento>
+<cac:DaňovýSchémat>
+<cbc:ID>DPH</cbc:ID>
+
+
+</cac:Item>
+
+
+</Objednávka>

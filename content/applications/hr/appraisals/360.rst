@@ -1,0 +1,85 @@
+============
+360 zpětná vazba
+============
+
+Aplikace **Ocenění** společnosti Odoo umožňuje manažerům shromáždit zpětnou vazbu od svých podřízených od kohokoli ve firmě.
+firmy. Zkušenosti kolegů poskytují vedoucím celkovější pohled na silné stránky a růst zaměstnanců
+oblasti a dovednosti spolupráce.
+
+..._hodnocení/360-dashboard:
+
+Dashboard zpětné vazby 360
+======================
+
+Sekce 360° zpětná vazba zobrazuje informace o všech dotaznících, které jsou pro tento účet nastaveny.
+**Odpovědi na otázky** ap. Pro zobrazení dotazníků a jejich statistik přejděte na:
+aplikace --> Konfigurace --> 360 zpětná vazba.
+
+.. obrázek:: 360/pruzkum-seznam.png
+:alt: Zobrazení seznamu všech dostupných dotazníků v aplikaci Hodnocení.
+
+Každá hodnocení nebo průzkum je prezentován na vlastní řádku v přehledu 360° zpětná vazba.
+spolu s různými informacemi týkajícími se této konkrétní ocenění.
+
+Každá odhadovaná cena obsahuje následující informace:
+
+- :guilabel:`Název průzkumu“: konkrétní název průzkumu.
+- :guilabel:`Odpovědný za průzkum“: zaměstnanec odpovědný za průzkum včetně měsíce a roku
+Byly jim přiděleny tyto označení.
+- :guilabel:`Počet otázek“: počet otázek v daném průzkumu.
+- :guilabel:`Průměrná doba trvání“: průměrný čas, který uživatel stráví vyplňováním dotazníku.
+- :guilabel:`Registrováno“: počet lidí, kteří byli dotazníky osloveni.
+- :guilabel:`Dokončeno“: počet lidí, kteří dotazník vyplnili.
+- :guilabel:`Ověřené“: pokud je průzkum určen pro certifikaci, procento uživatelů, kteří mají
+Prošel certifikací.
+
+Každá řada hodnocení nabízí dvě akce:
+
+- :guilabel:`Testování“: Otevře aplikaci pro hodnocení v novém okně, aby bylo možné zobrazit otázky bez odeslání
+Odpovědi. Zavřete záložku a vrátíte se na seznam otázek, nebo klikněte na ikonu „pravý“ znak „oi-arrow-right“
+Výzkumu:/guilabel:Přejít na hodnocení/ pro celou formu.
+- :guilabel:`Zobrazit výsledky“: :ref:`Prohlédnout si analýzu odpovědí <appraisals/360-view-results>“.
+
+..._hodnocení/360-požadavek na zpětnou vazbu:
+
+Zeptejte se na zpětnou vazbu
+================
+
+Pro požádání zpětné vazby od kolegy přejděte do aplikace **Hodnocení** a klikněte na hodnocení.
+kartu, abyste se do něj dostali.
+
+Klikněte na tlačítko „Položit otázku“ a otevře se okno e-mailu s názvem „Položit otázku“.
+je vytvořen e-mailem s šablonou „Ocenění: Zeptejte se na zpětnou vazbu“.
+
+Nejprve vyberte zaměstnance, kteří mají poskytnout zpětnou vazbu, z roletkového menu.
+„Příjemce“ pole. Můžete vybrat více zaměstnanců. Poté proveďte požadované změny
+výchozí zprávu a přiložit příslušné dokumenty.
+
+Datum „Termínu odpovědi“ je automaticky nastaven na den po „Dni hodnocení“.
+Datum na odhadovém formuláři. Použijte kalendářový výběr a změňte datum, pokud chcete.
+
+Klikněte na tlačítko „Odeslat“ a žádosti o zpětnou vazbu budou odeslány zaměstnancům, kterým byly určeny.
+
+.. obrázek: 360/dotaznik-zpětné-vazby.png
+:alt:Pop-up e-mail při žádosti o zpětnou vazbu od zaměstnanců.
+
+.. _hodnocení/360° pohled na výsledky:
+
+Zobrazit výsledky
+============
+
+Pro zobrazení výsledků všech respondentů klikněte na tlačítko „Zobrazit výsledky“.
+tlačítko na konci příslušného průzkumového řádku v rozhraní 360° zpětná vazba.
+<hodnocení/360-dashboard>. Tato funkce zobrazí všechny odpovědi dotazníku v novém okně. Každý
+Otázka poskytuje informace o tom, kolik lidí odpovědělo na otázku, a kolik lidí
+přeskočil jsem ho. Všechny odpovědi na každou otázku jsou viditelné.
+
+Pro uložení výsledků průzkumu ve formátu PDF klikněte na ikonu :icon:`fa-print` :guilabel:`(Tisk)`
+nahoře na stránce. Zavřením záložky se vám aplikace zavře.
+
+Kromě zobrazení odpovědí ze starých hodnocení a průzkumů lze nové průzkumy také
+Vytvořené z stránky „360° zpětná vazba“. Klikněte na tlačítko „Nový“ v pravém horním rohu
+stránku pro vytvoření nového průzkumu.
+
+Více informací o vytváření průzkumů najdete na stránce :doc:`../../marketing/surveys/create`.
+dokument.

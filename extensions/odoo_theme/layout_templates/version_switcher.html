@@ -1,0 +1,22 @@
+<div class="o_versions row">
+<div tříděný jako "dropdown"
+{%- if (alternativní verze.length > 0) %}
+<button type="button" class="btn btn-sm dropdown-toggle"
+id="verze">
+data-bs-toggle="dropdown">
+{{ verze_zobrazit_jméno }} {#Aktuální verze #}
+</tlačítko>
+{%- jinak %}
+<button type="button" class="btn btn-sm dropdown-toggle"
+id="verze">
+disabled="">
+{{ verze_zobrazit_jméno }} {#Aktuální verze #}
+</tlačítko>
+{%- if %}
+<ul třídy="dropdown-menu dropdown-menu-end" s atributem "aria-labelledby":="versions">
+{%- for alternate_version, url in alternate_versions %}
+
+{%- endfor %}
+
+
+</div>

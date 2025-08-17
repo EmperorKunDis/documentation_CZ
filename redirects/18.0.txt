@@ -1,0 +1,47 @@
+# aplikace/finance
+
+applications/finance/payment_providers/ogone.rst applications/finance/payment_providers/worldline.rst
+aplikace/finance/platební metody/sips.rst aplikace/finance/platební metody/worldline.rst
+aplikace/účetnictví/platby/výběry/vnitřní převody.rst aplikace/účetnictví/banka/výběry/vnitřní převody.rst
+aplikace/finance/účetnictví/platby/šeky.rst aplikace/finance/účetnictví/platby.rst
+aplikace/finance/fiskální lokality/zaměstnání/hero.rst aplikace/personal/mzdy/mzdové lokality/zaměstnání/hero.rst
+
+# Aplikace/prodejní místo
+
+obsah/aplikace/prodej/příjem/platby/čtečky/vantiv.rst obsah/aplikace/prodej/příjem/platby/čtečky.rst
+obsah/aplikace/prodej/příjem/platební metody/termíny/VIVA peněženka.rst obsah/aplikace/prodej/platební metody/VIVA komunikace.rst   # terminály/VIVA peněženka.rst --> terminály/VIVA komunikace.rst
+
+# aplikace/skladové hospodářství a MRP
+
+aplikace/Inventura a MRP/Nákup/Zboží/Jednotky měření aplikace/Inventura a MRP/Skladování/Správa produktů/Konfigurace/Jednotky měření
+
+# aplikace/produktivita/znalosti
+
+aplikace/produktivita/znalosti/úpravy článků.rst aplikace/produktivita/znalosti.rst
+aplikace/produktivita/vědomosti/řízení.rst aplikace/produktivita/vědomosti.rst
+
+# příjem žádostí a prodej
+
+aplikace/prodej/prodej/odeslat nabídku aplikace/prodej/prodej/nabídky prodeje --> aplikace/prodej/sales_quotations
+applications/sales/sales/send_quotations/create_quotations.rst applications/sales/sales/sales_quotations/create_quotations.rst                   # sales/send_quotations/* --> sales/sales_quotations/*
+aplikace/prodej/prodej/odeslání nabídek/termín.rst aplikace/prodej/prodej/sales_quotations/termín.rst                                     # prodej/odeslání nabídek/* --> prodej/sales_quotations/*
+aplikace/prodej/prodej/odeslání nabídek/získat zaplaceno za ověření.rst aplikace/prodej/prodej/sales_quotations/získat zaplaceno za ověření.rst                 # prodej/odeslání nabídek/* --> prodej/sales_quotations/*
+aplikace/prodej/prodej/odeslat nabídku/získat podpis k ověření.rst aplikace/prodej/prodej/prodejní nabídky/získat podpis k ověření.rst   # prodej/odeslat nabídku/* --> prodejní nabídky/*
+applications/prodej/prodej/odeslání nabídek/volitelné produkty.rst applications/prodej/prodej/nabídky/volitelné produkty.rst                   # prodej/odeslání nabídek/* --> prodej/sales_quotations/*
+applications/sales/sales/send_quotations/orders_and_variants.rst applications/sales/sales/sales_quotations/orders_and_variants.rst               # sales/send_quotations/* --> sales/sales_quotations/*
+applications/sales/sales/send_quotations/pdf_quote_builder.rst applications/sales/sales/sales_quotations/pdf_quote_builder.rst                   # sales/send_quotations/* --> sales/sales_quotations/*
+aplikace/prodej/prodej/odeslání nabídek/šablona nabídky.rst aplikace/prodej/prodej/prodejní nabídky/šablona nabídky.rst                         # prodej/odeslání nabídek/* --> prodej/sales_quotations/*
+
+# aplikace/VoIP
+
+aplikace/produktivita/voip/převod_vpřed.rst aplikace/produktivita/voip/voip_widget.rst
+
+# aplikace/weby
+
+aplikace/weby/e-shopy/nákupní košík.rst aplikace/weby/e-shopy/objednávka.rst
+aplikace/weby/web/stránky/hlavičky a patičky.rst aplikace/weby/web/stránky/menu.rst
+aplikace/weby/webová stránka/bloky/dynamické obsahy.rst aplikace/weby/webová stránka/bloky.rst
+aplikace/weby/web/bloky/vlastnosti.rst aplikace/weby/web/bloky.rst
+aplikace/weby/web/bloky/vnitřní obsah.rst aplikace/weby/web/bloky.rst
+aplikace/weby/web/bloky/struktura.rst aplikace/weby/web/bloky.rst
+aplikace/weby/web/stránky/hlavičky a patičky.rst aplikace/weby/web/stránky/menu.rst

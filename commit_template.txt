@@ -1,0 +1,19 @@
+[TAG] aplikace/modul: popište změny v krátké větě
+
+# Pokud si myslíte, že by mohlo pomoci budoucímu čtenáři pochopit váš závazek
+# motivace, vysvětlete proč jste udělali tyto změny.
+# vět. Co je většinou snadno pochopitelné z čtení rozdílu.
+#
+# Krátký popis tipu: strukturovat svůj zprávu o přispění, jako byste ji dokončovali
+# Toto prohlášení: „Pokud se sloučí tento příspěvek, bude...“. Například
+# Zpráva o závazku je správná: „[IMP] Prodej: komprimujte obrázky, abyste ušetřili místo“.
+#
+# Tagy s významem:
+#
+# [PŘIDAT] = Nový obsah
+# [IMP] = Zlepšení
+# [FIX] = Oprava obsahu nebo oprava RST
+# [REM]=Odstranění
+# [REF] = Restrukturalizace
+# [MOV] = Přesunout/přejmenovat
+#

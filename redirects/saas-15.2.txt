@@ -1,0 +1,16 @@
+# příjem žádostí a prodej
+
+aplikace/prodej/fakturace/vystavit faktury/jiná adresa.rst aplikace/účetnictví/daňové doklady/adresy zákazníků/adresy zákazníků.rst                    # přesun z prodeje na účetnictví
+
+# vývojář/odkaz
+
+developer/reference/backend/standard_modules.rst developer/reference/standard_modules.rst                                                                  # přesunout standard_modules/ o jeden level výš (#2456)
+developer/reference/backend/standard_modules/account.rst developer/reference/standard_modules/account.rst                                                  # přesunout standard_modules/ o jeden level výš (#2456)
+developer/reference/backend/standard_modules/account/account_account.rst developer/reference/standard_modules/account/account_account.rst                  # přesunout standard_modules/ o jeden level nahoru (#2456)
+developer/reference/backend/standard_modules/account/account_account_tag.rst developer/reference/standard_modules/account/account_account_tag.rst          # přesunout standard_modules/ o jeden level výš (#2456)
+developer/reference/backend/standard_modules/account/account_chart_template.rst developer/reference/standard_modules/account/account_chart_template.rst    # přesunout standard_modules/ o jeden úroveň výš (#2456)
+developer/reference/backend/standard_modules/account/account_fiscal_position.rst developer/reference/standard_modules/account/account_fiscal_position.rst  # přesun standard_modules/ o jeden level nahoru (#2456)
+developer/reference/backend/standard_modules/account/account_group.rst developer/reference/standard_modules/account/account_group.rst                      # přesunout standard_modules/ o jeden řádek výš (#2456)
+developer/reference/backend/standard_modules/account/account_tax.rst developer/reference/standard_modules/account/account_tax.rst                          # přesunout standard_modules/ o jeden řádek výš (#2456)
+developer/reference/backend/standard_modules/account/account_tax_repartition.rst developer/reference/standard_modules/account/account_tax_repartition.rst  # přesunout standard_modules/ o jeden level nahoru (#2456)
+developer/reference/backend/standard_modules/account/account_tax_report_line.rst developer/reference/standard_modules/account/account_tax_report_line.rst  # přesunout standard_modules/ o jeden level výš (#2456)

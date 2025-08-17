@@ -1,0 +1,152 @@
+# vývojář/odkaz
+
+developer/reference/backend/views.rst developer/reference/user_interface/view_records.rst
+developer/reference/user_interface/view_architecture.rst developer/reference/user_interface/view_architectures.rst
+
+# vývojář/návody
+
+developer/návody/začínáme.rst developer/návody/serverová-architektura-101.rst
+developer/návody/začínáme/01_architektura.rst developer/návody/serverová-platforma-101/01_architektura.rst
+developer/návody/začínáme/02_instalace.rst developer/návody/nastavení/index.rst
+developer/návody/začínáme/03_novýaplikace.txt developer/návody/serverová-architektura-101/02_novýaplikace.txt
+developer/návody/začínáme/04_základní model.rst developer/návody/serverová-architektura-101/03_základní model.rst
+developer/návody/začínáme/05_bezpečnost.txt developer/návody/serverová-architektura-101/04_bezpečnost.txt
+developer/návody/začínáme/06_první_uiview.rst developer/návody/serverová-architektura-101/05_první_uiview.rst
+developer/návody/začínáme/07_základní pohledy.rst developer/návody/serverová infrastruktura 101/06_základní pohledy.rst
+developer/návody/začínáme/08_vztahy.rst developer/návody/serverová-architektura-101/07_vztahy.rst
+developer/návody/začínáme/09_vypočítat_při_změně.rst developer/návody/serverová_architektura_101/08_vypočítat_při_změně.rst
+developer/návody/začínáme/10_akce.txt developer/návody/serverová-architektura-101/09_akce.txt
+developer/návody/začínáme/11_podmínky.rst developer/návody/serverová-architektura-101/10_podmínky.rst
+developer/návody/začínáme/12_sprinkles.rst developer/návody/serverová-architektura-101/11_sprinkles.rst
+developer/návody/začínáme/13_dědičnost.rst developer/návody/serverová-architektura-101/12_dědičnost.rst
+developer/návody/začínáme/14_jiný_modul.rst developer/návody/serverová-architektura-101/13_jiný_modul.rst
+developer/návody/začínáme/15_qwebintro.rst developer/návody/serverová-architektura-101/14_qwebintro.rst
+developer/návody/začínáme/16_finální slovo.rst developer/návody/serverová-architektura-101/15_finální slovo.rst
+
+# aplikace/obecné
+
+aplikace/obecné/e-mailová komunikace/e-mailové servery.rst aplikace/obecné/e-mailová komunikace.rst
+aplikace/obecné/IoT/konfigurace.rst aplikace/obecné/IoT.rst
+aplikace/obecné/IoT/konfigurace/připojení.rst aplikace/obecné/IoT/připojení.rst
+aplikace/obecné/IoT/konfigurace/pos.rst aplikace/prodej/point of sale/konfigurace/pos_iot.rst
+applications/general/iot/config/https_certificate_iot.rst applications/general/iot/iot_advanced/https_certificate_iot.rst
+aplikace/obecné/IoT/konfigurace/aktualizace_IoT aplikace/obecné/IoT/IoT Advanced/aktualizace_IoT
+aplikace/obecné/IoT/konfigurace/řešení problémů.rst aplikace/obecné/IoT.rst
+aplikace/obecné/IoT/konfigurace/Windows_IoT aplikace/obecné/IoT/Windows_IoT
+applications/general/iot/config/ssh_connect.rst applications/general/iot/iot_advanced/ssh_connect.rst
+aplikace/obecné/multi_company.rst aplikace/obecné/firmy/multi_company.rst
+
+# applications/hr
+
+applications/hr/hodnocení/reporting.rst applications/hr/hodnocení/hodnocení_analýza.rst                                                                                                                # hodnocení/reporting --> hodnocení/hodnocení_analýza
+
+# aplikace/skladové hospodářství a MRP
+
+applications/inventory_and_mrp/inventory/produkt/správa produktů/sledování produktu/typ.rst applications/inventory_and_mrp/inventory/produkt/konfigurace/typ.rst                                        # sledování produktu --> konfigurace
+applications/inventory_and_mrp/inventory/product_management/inventory_valuation/integrating_landed_costs.rst applications/inventory_and_mrp/inventory/product_management/inventory_valuation/landed_costs.rst        # integrating_landed_costs --> landed costs
+applications/inventory_and_mrp/inventory/warehouses_storage/advanced_operations_warehouse/batch_transfer.rst applications/inventory_and_mrp/inventory/shipping_receiving/picking_methods/batch.rst                   # advanced_operations_warehouse/batch_transfer --> shipping_receiving/picking_methods/batch
+applications/inventory_and_mrp/inventory/warehouses_storage/advanced_operations_warehouse/storage_category.rst applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/storage_category.rst     # advanced_operations_warehouse/storage_category --> shipping_receiving/daily_operations/storage_category
+applications/inventory_and_mrp/inventory/warehouses_storage/advanced_operations_warehouse/removal.rst applications/inventory_and_mrp/inventory/warehouses_storage/removal_strategies.rst                             # advanced_operations_warehouse/removal --> warehouses_storage/removal_strategies
+applications/inventory_and_mrp/inventory/warehouses_storage/advanced_operations_warehouse/closest_location.rst applications/inventory_and_mrp/inventory/warehouses_storage/removal_strategies/closest_location.rst   # advanced_operations_warehouse/* --> removal_strategies/*
+applications/inventory_and_mrp/inventory/warehouses_storage/removal_strategies/closest_location.rst applications/inventory_and_mrp/inventory/shipping_receiving/removal_strategies/closest_location.rst    # warehouses_storage/removal_strategies/* --> shipping_receiving/removal_strategies/*
+applications/inventory_and_mrp/inventory/warehouses_storage/advanced_operations_warehouse/fefo.rst applications/inventory_and_mrp/inventory/warehouses_storage/removal_strategies/fefo.rst                           # advanced_operations_warehouse/* --> removal_strategies/*
+applications/inventory_and_mrp/inventory/warehouses_storage/removal_strategies/fefo.rst applications/inventory_and_mrp/inventory/shipping_receiving/removal_strategies/fefo.rst                            # warehouses_storage/removal_strategies/* --> shipping_receiving/removal_strategies/*
+applications/inventory_and_mrp/inventory/warehouses_storage/advanced_operations_warehouse/fifo.rst applications/inventory_and_mrp/inventory/warehouses_storage/removal_strategies/fifo.rst                           # advanced_operations_warehouse/* --> removal_strategies/*
+applications/inventory_and_mrp/inventory/warehouses_storage/removal_strategies/fifo.rst applications/inventory_and_mrp/inventory/shipping_receiving/removal_strategies/fifo.rst                            # warehouses_storage/removal_strategies/* --> shipping_receiving/removal_strategies/*
+applications/inventory_and_mrp/inventory/warehouses_storage/advanced_operations_warehouse/least_packages.rst applications/inventory_and_mrp/inventory/warehouses_storage/removal_strategies/least_packages.rst       # advanced_operations_warehouse/* --> removal_strategies/*
+applications/inventory_and_mrp/inventory/warehouses_storage/removal_strategies/least_packages.rst applications/inventory_and_mrp/inventory/shipping_receiving/removal_strategies/least_packages.rst        # warehouses_storage/removal_strategies/* --> shipping_receiving/removal_strategies/*
+aplikace/Inventarizace a MRP/Inventarizační operace/Skladové operace/Advanced Operations Warehouse/LIFO.rst aplikace/Inventarizace a MRP/Inventarizační operace/Odstranění strategií/LIFO.rst                           # Advanced Operations Warehouse/* --> Odstraňování strategií/*
+applications/inventory_and_mrp/inventory/warehouses_storage/removal_strategies/lifo.rst applications/inventory_and_mrp/inventory/shipping_receiving/removal_strategies/lifo.rst                            # warehouses_storage/removal_strategies/* --> shipping_receiving/removal_strategies/*
+aplikace/Inventarizační a MRP/Sklad/Skladové prostory/Správa zásob/Dodávky skladů - inventarizační/Správa zásob --> Dodávky skladů
+applications/inventory_and_mrp/inventory/warehouses_storage/inventory_management/warehouse_replenishment_transfer.rst applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/warehouse_replenishment_transfer.rst    # inventory_management/warehouse_replenishment_transfer --> replenishment/warehouse_replenishment_transfer
+applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/warehouse_replenishment_transfer.rst applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/resupply_warehouses.rst                        # Vše o doplňování zásob na jedné stránce
+applications/inventory_and_mrp/inventory/shipping_receiving/advanced_operations_shipping/print_on_validation.rst applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/print_on_validation.rst                # shipping_receiving/advanced_operations_shipping/* -> shipping_receiving/setup_configuration/*
+aplikace/Inventář a MRP/Výroba/Řízení/Faktura/konfigurace.rst aplikace/Inventář a MRP/Výroba/Základní nastavení/Faktura/konfigurace.rst                              # management/* --> basic_setup/*
+aplikace/Inventura a MRP/Výroba/Nastavení/Konfigurace výrobku.rst aplikace/Inventura a MRP/Výroba/Základní nastavení/Konfigurace výrobku.rst    # management/* --> basic_setup/*
+applications/inventory_and_mrp/manufacturing/management/dodavky_sestav.rst applications/inventory_and_mrp/manufacturing/advanced_configuration/dodavky_sestav.rst                               # management/* --> advanced_configuration/*
+aplikace/Inventura a MRP/Výroba/Řízení výroby/Náhradní objednávky.rst aplikace/Inventura a MRP/Výroba/Průběh práce/Náhradní objednávky.rst                    # management/* --> workflows/*
+applications/inventory_and_mrp/manufacturing/management/one_step_manufacturing.rst applications/inventory_and_mrp/manufacturing/basic_setup/one_step_manufacturing.rst                      # management/* --> basic_setup/*
+aplikace/Inventura a MRP/Výroba/Řízení výroby/Produktové varianty.rst aplikace/Inventura a MRP/Výroba/Advanced Configuration/Produktové varianty.rst                       # management/* --> advanced_configuration/*
+aplikace/Inventura a MRP/Výroba/Řízení výroby/Řízení odpadu/Výrobní řetězec.rst aplikace/Inventura a MRP/Výroba/Průběh práce/Řízení odpadu/Výrobní řetězec.rst                              # management/* --> workflows/*
+aplikace/Inventura a MRP/Výroba/Řízení/Skládání/Rozdělování/Sloučení.rst aplikace/Inventura a MRP/Výroba/Práce/Skládání/Rozdělování/Sloučení.rst                                              # management/* --> workflows/*
+aplikace/Inventar a MRP/Výroba/Řízení/Sestavy.rst aplikace/Inventar a MRP/Výroba/Advanced Configuration/Sestavy.rst                           # management/* --> advanced_configuration/*
+aplikace/Inventar a MRP/Výroba/Řízení/Dodavatelé.rst aplikace/Inventar a MRP/Výroba/Práce s dodavateli.rst                                        # management/* --> workflows/*
+aplikace/Inventář a MRP/Výroba/Řízení výroby/Tříkrokové výrobní procesy aplikace/Inventář a MRP/Výroba/Základní nastavení/Tříkrokové výrobní procesy
+aplikace/Inventář a MRP/Výroba/Řízení/Dvoufázová výroba.rst aplikace/Inventář a MRP/Výroba/Základní nastavení/Dvoufázová výroba.rst                      # management/* --> basic_setup/*
+aplikace/Inventář a MRP/Výroba/Řízení/Nevyhotovené objednávky.rst aplikace/Inventář a MRP/Výroba/Průběhy/Nevyhotovené objednávky.rst                                        # management/* --> workflows/*
+aplikace/Inventura a MRP/Výroba/Řízení/Užívání MPS aplikace/Inventura a MRP/Výroba/Práce/Užívání MPS
+applications/inventory_and_mrp/manufacturing/management/using_work_centers.rst applications/inventory_and_mrp/manufacturing/advanced_configuration/using_work_centers.rst                   # management/* --> advanced_configuration/*
+aplikace/Inventura a MRP/Výroba/Řízení výroby/Časové rozvrhy/Časový rozvrh - čas volna.rst aplikace/Inventura a MRP/Výroba/Průběh prací/Časový rozvrh - čas volna.rst                            # management/* --> workflows/*
+applications/inventory_and_mrp/manufacturing/management/work_order_dependencies.rst applications/inventory_and_mrp/manufacturing/advanced_configuration/work_order_dependencies.rst         # management/* --> advanced_configuration/*
+applications/inventory_and_mrp/manufacturing/workflows/subcontracting.rst applications/inventory_and_mrp/manufacturing/subcontracting.rst                                         # workflows/* --> manufacturing/*
+applications/inventory_and_mrp/manufacturing/workflows/subcontracting_basic.rst applications/inventory_and_mrp/manufacturing/subcontracting/subcontracting_basic.rst              # workflows/* --> subcontracting/*
+applications/inventory_and_mrp/manufacturing/workflows/subcontracting_dropship.rst applications/inventory_and_mrp/manufacturing/subcontracting/subcontracting_dropship.rst        # workflows/* --> subcontracting/*
+applications/inventory_and_mrp/manufacturing/workflows/subcontracting_resupply.rst applications/inventory_and_mrp/manufacturing/subcontracting/subcontracting_resupply.rst        # workflows/* --> subcontracting/*
+aplikace/Inventura a MRP/Výroba/Průběh výroby/Alokace aplikace/Inventura a MRP/Výroba/Reporty/Alokace
+aplikace/Inventura a MRP/Výroba/Průběh výroby/OEE.rst aplikace/Inventura a MRP/Reporting/OEE.rst
+applications/inventory_and_mrp/manufacturing/workflows/production_analysis.rst applications/inventory_and_mrp/manufacturing/reporting/production_analysis.rst
+
+# aplikace/marketing
+
+aplikace/marketing/akce/akce_základní.rst aplikace/marketing/akce.rst   # akce_základní --> akce
+aplikace/marketing/marketing_automation/getting_started.rst aplikace/marketing/marketing_automation.rst                                            # getting_started --> marketing_automation
+aplikace/marketing/marketing_automation/advanced.rst aplikace/marketing/marketing_automation.rst                                                     # advanced --> marketing_automation
+applications/marketing/marketing_automation/advanced/understanding_metrics.rst applications/marketing/marketing_automation/understanding_metrics.rst     # advanced/* --> marketing_automation/*
+applications/marketing/marketing_automation/getting_started/first_campaign.rst applications/marketing/marketing_automation.rst                            # getting_started/first_campaign --> marketing_automation
+applications/marketing/marketing_automation/getting_started/target_audience.rst applications/marketing/marketing_automation/target_audience.rst           # getting_started/* --> marketing_automation/*
+applications/marketing/marketing_automation/getting_started/testing_running.rst applications/marketing/marketing_automation/testing_running.rst           # getting_started/* --> marketing_automation/*
+applications/marketing/marketing_automation/getting_started/workflow_activities.rst applications/marketing/marketing_automation/workflow_activities.rst   # getting_started/* --> marketing_automation/*
+aplikace/marketing/sociální marketing/základy.rst aplikace/marketing/sociální marketing.rst
+aplikace/marketing/sociální marketing/základy/sociální příspěvky.rst aplikace/marketing/sociální marketing/sociální příspěvky.rst                              # /marketing/sociální marketing/základy --> /marketing/sociální marketing
+aplikace/marketing/sociální marketing/základy/kampaně sociálních sítí.rst aplikace/marketing/sociální marketing/kampaně sociálních sítí.rst                      # /marketing/sociální marketing/základy --> /marketing/sociální marketing
+aplikace/marketing/sms_marketing/essentials.rst aplikace/marketing/sms_marketing.rst                                                               # /marketing/sms_marketing/essentials --> /marketing/sms_marketing
+applications/marketing/sms_marketing/essentials/sms_essentials.rst applications/marketing/sms_marketing.rst                                               # /marketing/sms_marketing/essentials --> /marketing/sms_marketing
+applications/marketing/sms_marketing/essentials/sms_campaign_settings.rst applications/marketing/sms_marketing.rst                                        # /marketing/sms_marketing/essentials --> /marketing/sms_marketing
+applications/marketing/sms_marketing/essentials/mailing_lists_blacklists.rst applications/marketing/sms_marketing/mailing_lists_blacklists.rst            # /marketing/sms_marketing/essentials --> /marketing/sms_marketing
+applications/marketing/sms_marketing/pricing.rst applications/marketing/sms_marketing/pricing_and_faq.rst                                                 # /marketing/sms_marketing/pricing --> /marketing/sms_marketing
+applications/marketing/sms_marketing/pricing/pricing_and_faq.rst applications/marketing/sms_marketing/pricing_and_faq.rst                                 # /marketing/sms_marketing/pricing --> /marketing/sms_marketing
+aplikace/marketing/průzkumy/základní věci.rst aplikace/marketing/průzkumy.rst
+aplikace/marketing/průzkumy/čas_náhodný.rst aplikace/marketing/průzkumy/otázky.rst  # čas_náhodný --> otázky
+
+# příjem žádostí a prodej
+
+applications/sales/crm/acquire_leads/generate_leads.rst applications/sales/crm/acquire_leads/email_manual.rst                                            #generate_leads --> email_manual
+applications/sales/crm/pipeline/multi_sales_team.rst applications/sales/crm/pipeline/manage_sales_teams.rst                                               # multi_sales_team --> manage_sales_teams
+applications/sales/point_of_sale/pricing/digital_labels.rst applications/sales/point_of_sale/pricing/electronic_labels.rst                             # digital_labels --> electronic_labels
+aplikace/prodej/prodejna/způsoby platby/bankomaty/vantiv.rst aplikace/prodej/prodejna/způsoby platby/bankomaty.rst	# bankomaty/vantiv --> bankomaty
+aplikace/prodej/předplatné/platební metody/bankovní převod aplikace/financování/platební metody/bankovní převod
+aplikace/prodej/předplatné/platební metody/sdd.rst aplikace/finance/platební metody/sdd.rst
+aplikace/prodej/předplatné/plány.rst aplikace/prodej/předplatné.rst												# předplatné/plány --> předplatné
+
+# aplikace/služby
+
+aplikace/služby/helpdesk/přehled/začínáme.rst aplikace/služby/helpdesk.rst                                                             #helpdesk/přehled/začínáme --> helpdesk
+aplikace/služby/projekt/úkoly/e-mailová adresa.rst aplikace/služby/projekt/úkoly/vytvoření úkolu.rst                                                     #projekt/úkoly/e-mailová adresa --> vytvoření úkolu
+aplikace/služby/servisní tým/výchozí sklad.rst aplikace/služby/servisní tým/produktové řízení.rst                                                 #projekt/úkoly/alias_e-mailu --> vytvoření úkolu
+applications/services/field_service/onsite_interventions.rst applications/services/field_service/creating_tasks.rst
+
+# aplikace/webová stránka
+
+aplikace/weby/e-shopy/správa produktů/produkty.rst aplikace/weby/e-shopy/produkty.rst
+aplikace/weby/e-shopy/správa produktů/katalog.rst aplikace/weby/e-shopy/produkty/katalog.rst
+aplikace/weby/e-shopy/správa produktů/varianty.rst aplikace/weby/e-shopy/produkty/varianty.rst
+aplikace/weby/e-shopy/správa produktů/cena/price_management.rst aplikace/weby/e-shopy/produkty/cena/price_management.rst
+aplikace/weby/e-shopy/správa produktů/křížové prodeje/applications/websites/ecommerce/products/cross_upselling.rst
+aplikace/weby/e-commerce/správa e-shopu/zpracování objednávek.rst aplikace/weby/e-commerce/zpracování objednávek.rst
+aplikace/weby/e-shop/správa e-shopu/zákaznický účet aplikace/weby/e-shop/zákaznický účet
+aplikace/weby/e-commerce/správa e-commerce/zákaznický interakce.rst aplikace/weby/web/webový design/bloky.rst
+aplikace/weby/e-commerce/správa e-commerce/výkon.rst aplikace/weby/e-commerce/výkon.rst
+aplikace/weby/e-commerce/objednávka/platební metody/dodání/nákupní košík aplikace/weby/e-commerce/nákupní košík
+aplikace/weby/e-commerce/objednávka/platba a doprava/objednávka.rst aplikace/weby/e-commerce/objednávka.rst
+aplikace/weby/e-commerce/objednávky/platba/dodání/platební metody.rst aplikace/weby/e-commerce/platební metody.rst
+aplikace/weby/e-shop/platební metody a způsoby dopravy.rst aplikace/weby/e-shop.rst
+aplikace/weby/e-commerce/e-commerce_management.rst aplikace/weby/e-commerce.rst
+
+# aplikace/finance
+
+applications/finance/accounting/get_started/vat_units.rst applications/finance/accounting/get_started/tax_units.rst                                        # vat_units --> tax_units
+aplikace/finance/účetnictví/daně/taxcloud.rst aplikace/finance/účetnictví/daně.rst                                                                         # taxcloud --> daně
+
+# přispívání/dokumentace
+
+přispívání/dokumentace/rst_cheat_sheet.rst přispívání/dokumentace/rst_guidelines.rst

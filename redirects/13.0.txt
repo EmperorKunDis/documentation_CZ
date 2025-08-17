@@ -1,0 +1,269 @@
+# aplikace/finance
+
+aplikace/účetnictví/přehled/základní pojmy/v odoo.rst aplikace/účetnictví/přehled/základní pojmy -> účetnictví.rst
+applications/finance/accounting/overview/main_concepts/memento.rst applications/finance/accounting/getting_started/memento.rst                                             # overview/main_concepts/* -> getting_started/*
+applications/finance/accounting/overview/getting_started/chart_of_accounts.rst applications/finance/accounting/getting_started/initial_configuration/chart_of_accounts.rst  # overview/getting_started/* -> getting_started/initial_configuration/*
+applications/finance/accounting/overview/getting_started/setup.rst applications/finance/accounting/getting_started/initial_configuration/setup.rst                          # overview/getting_started/* -> getting_started/initial_configuration/*
+applications/finance/accounting/overview/process_overview/customer_invoice.rst applications/finance/accounting/getting_started/process_overview/customer_invoice.rst        # overview/* -> getting_started/*
+applications/finance/accounting/overview/process_overview/supplier_bill.rst applications/finance/accounting/getting_started/process_overview/supplier_bill.rst              # overview/* -> getting_started/*
+
+aplikace/finance/výdaje/výdaje.rst aplikace/finance/výdaje.rst                    #výdaje/výdaje -> výdaje
+
+applications/finance/sign/overview/signature_validity.rst applications/finance/sign.rst         # sign/overview/signature_validity -> sign/*
+
+# aplikace/obecné
+
+aplikace/obecné/autentizace/google_spreadsheet.rst aplikace/prodej/CRM/výkonnost/google_spreadsheet.rst
+
+applications/general/base_import.rst applications/general/export_import_data.rst                           # base_import -> export_import_data
+aplikace/obecné/základní import/import_FAQ.rst aplikace/obecné/export_import_dat.rst
+aplikace/obecné/import/vzor_adapt.rst aplikace/obecné/export_import_dat.rst
+
+aplikace/obecné/rozvojářský režim/aktivovat.rst aplikace/obecné/rozvojářský režim.rst                    # rozvojářský režim/aktivovat -> rozvojářský režim
+
+aplikace/obecné/nákupy v aplikaci/nákupy v aplikaci.rst aplikace/obecné/nákupy v aplikaci.rst         # nákupy v aplikaci -> nákupy v aplikaci
+
+aplikace/obecné/mobilní.rst aplikace/obecné.rst                                                                   # obecné/mobilní -> obecné
+
+aplikace/obecné/více společností/správa více společností.rst aplikace/obecné/společnosti.rst                    # multi_companies/manage_multi_companies -> společnosti
+applications/general/multi_companies.rst applications/general/users/companies.rst                          # multi_companies -> companies
+
+applications/general/odoo_basics/choose_language.rst  applications/general/users/language.rst                   # odoo_basics/choose_language -> users/language
+aplikace/obecné/odoo_základy/export-data.rst aplikace/obecné/export_import_data.rst                    # odoo_základy/export-data -> export_import_data
+aplikace/obecné/odoo_základy/uživatelé.rst aplikace/obecné/uživatelé.rst                                    # odoo_základy/uživatelé -> uživatelé
+
+applications/general/payment_acquirers/payment_acquirers.rst applications/finance/payment_acquirers.rst             # general/payment_acquirers/payment_acquirers -> finance/payment_acquirers
+aplikace/obecné/platební_akvizitory.rst aplikace/finance/platební_akvizitory.rst                                       # obecné/platební_akvizitory/* --> finance/platební_akvizitory/*
+aplikace/obecné/platební karty/autorizovat.rst aplikace/finance/platební karty/autorizovat.rst           # obecné/platební karty/* --> finance/platební karty/*
+aplikace/obecné/platební karty/paypal.rst aplikace/finance/platební karty/paypal.rst                 # obecné/platební karty/* --> finance/platební karty/*
+applications/general/payment_acquirers/stripe.rst applications/finance/payment_acquirers/stripe.rst                 # general/payment_acquirers/* --> finance/payment_acquirers/*
+applications/generální/platební karty/bankovní převod.rst applications/finance/platební karty/bankovní převod.rst   # general/platební karty/* --> finance/platební karty/*
+
+aplikace/obecné/unsplash/unsplash_access_key.rst aplikace/webové stránky/webová stránka/optimizovat/unsplash.rst # obecné/unsplash/unsplash_access_key -> obecné/unsplash
+aplikace/obecné/unsplash/unsplash_application_id.rst aplikace/webové stránky/webová stránka/optimizovat/unsplash.rst # obecné/unsplash/unsplash_application_id -> obecné/unsplash
+aplikace/obecné/unsplash aplikace/weby/webová stránka/optimalizovat/unsplash
+
+# aplikace/marketing
+
+applications/marketing/survey/overview/create.rst applications/marketing/surveys/overview/create.rst           # /survey/* -> /surveys/*
+applications/marketing/survey/overview/scoring.rst applications/marketing/surveys/overview/scoring.rst         # /survey/* -> /surveys/*
+applications/marketing/survey/overview/time_random.rst applications/marketing/surveys/overview/time_random.rst # /survey/* -> /surveys/*
+
+# aplikace/produktivita
+
+aplikace/produktivita/diskuse/pokročilé/e-mailové servery.rst aplikace/obecné/e-mailová komunikace/e-mailové servery.rst     # produktivita/diskuse/pokročilé/* -> obecné/e-mailová komunikace/*
+aplikace/produktivita/diskuse/pokročilé/šablona e-mailu.rst aplikace/obecné/komunikace e-mailem/šablona e-mailu.rst   # produktivita/diskuse/pokročilé/* -> obecné/komunikace
+
+# Aplikace/Nastavení
+
+aplikace/nastavení/uživatelé a funkce.rst aplikace/obecné.rst                                               # nastavení/uživatelé a funkce -> obecné
+
+# developer/ostatní
+
+developer/misc/api/iap.rst developer/api/iap.rst                                        # lepší umístění obsahu misc/ (#2337)
+developer/misc/api/odoo.rst developer/api/external_api.rst                              # lepší umístění obsahu misc (#2350)  /!\ přejmenováno na external_api.rst v verzi 14.0 /!\
+developer/misc/i18n/localizace.rst developer/jakdokoncit/lokalizace.rst                    # lepší umístění obsahu misc (#2337)   /!\ již přesunuto v 15.0 /!\
+developer/misc/i18n/translations.rst developer/howtos/translations.rst                   # lepší umístění obsahu misc (#2337)  /!\ již přesunuto v 15.0 /!\
+rozvojář/různé/jiný/cmdline.rst rozvojář/CLI.rst                                          # lepší umístění obsahu různých/ pro příkazovou řádku (#2337)
+Vývojář/Různé/Jiné/Pokyny pro vývojáře.rst Přispívání/Vývoj/Programování/Pokyny k programování.rst # lepší umístění obsahu různých/ (# 2337)
+Vývojář/Různé/Jiné/IoT.rst Vývojář/IoT.rst                                               # lepší umístění obsahu různých/jiné/IoT (#2337)
+
+# služby
+
+služby/podpora/verze podporované.rst správa/údržba/verze podporované.rst                     # služby/podpora/* -> správa/údržba/*
+
+# ostatní
+
+účetnictví/lokalizace/nizozemsky.rst aplikace/finance/účetnictví/lokalizace/nizozemsky.rst
+účetnictví/příjmy/faktury odběratelů/refund.rst aplikace/finance/účetnictví/příjmy/faktury odběratelů/kreditní poznámky.rst     # refund --> kreditní poznámky (#475)
+účetnictví/příjmy/platby od zákazníků/SEPA platba --> SDD platba (#475)
+účetnictví/banka/příspěvky/synchronizace.rst aplikace/finance/účetnictví/banka/příspěvky/bankovní synchronizace.rst                            # synchronize --> bankovní synchronizace (#535)
+účetnictví/jiné/poradce/aktiva.rst aplikace/finance/účetnictví/povinnosti/faktury dodavatelům/aktiva.rst                             # jiné/poradce/* --> povinnosti/faktury dodavatelům/* (#541)
+účetnictví/jiné/konfigurace/druh účtu.rst aplikace/finance/účetnictví/začínáme/prvotní konfigurace/rozvaha.rst # jiné/konfigurace/druh účtu --> začínáme/prvotní konfigurace/rozvaha (#554)
+účetnictví/banka/příspěvky/ruční.rst aplikace/finance/účetnictví/banka/příspěvky/bankovní výpisy.rst                                        # ruční --> bankovní výpisy [sloučené] (#569)
+účetnictví/banka/příspěvky/coda.rst aplikace/finance/účetnictví/banka/příspěvky/bankovní výpisy.rst                                          # coda --> bank_statements [sloučené] (#569)
+účetnictví/banka/příspěvky/ofx.rst aplikace/finance/účetnictví/banka/příspěvky/bankovní výpisy.rst                                           # ofx --> bank_statements [sloučené] (#569)
+účetnictví/banka/příspěvky/qif.rst aplikace/finance/účetnictví/banka/příspěvky/bankovní výpisy.rst                                           # qif --> bankovní výpisy [sloučené] (#569)
+účetnictví/fakturace/dodavatelské faktury/splátkové kalendáře.rst aplikace/finance/účetnictví/fakturace/dodavatelské faktury/splátkové kalendáře --> splátkový kalendář [sloučený] (#573)
+účetnictví/jiné/poradce/účetní rok.rst aplikace/finance/účetnictví/daňová evidence/účetní rok/uzavření účetního roku.rst                   # jiné/poradce/účetní rok --> daňová evidence/fiscal_year/uzavření účetního roku (#575)
+účetnictví/jiné/konfigurace/daňový rok.rst aplikace/finance/účetnictví/daně/daňový rok/daňový rok.rst                  # jiné/konfigurace/* --> daně/daňový rok/* (#575)
+účetnictví/jiné/daně.rst aplikace/účetnictví/daňová/daně.rst                                                                             # jiné/* --> daňová/* (#575)
+účetnictví/jiné/daně/B2B_B2C.rst aplikace/finance/účetnictví/daňová problematika/daně/B2B_B2C.rst                                        # jiné/* --> daňová problematika/* (#575)
+účetnictví/jiné/daně/aplikace.rst aplikace/finance/účetnictví/daňové/daně/aplikace.rst                                                # jiné/* --> daňové/* (#575)
+účetnictví/jiné/daně/daň z příjmů ze závislé činnosti.rst aplikace/finance/účetnictví/daně/daň z příjmů ze závislé činnosti.rst                      # jiné/* --> daně/* (#575)
+účetnictví/jiné/daně/vytvořit.rst aplikace/finance/účetnictví/daňová problematika/daně/vytvořit.rst                                          # jiné/* --> daňová problematika/* (#575)
+účetnictví/jiné/daně/výchozí daně.rst aplikace/finance/účetnictví/daňová problematika/daně/výchozí daně.rst                            # jiné/* --> daňová problematika/* (#575)
+účetnictví/jiné/daně/zadržení.rst aplikace/finance/účetnictví/daňová problematika/daně/zadržení.rst                                    # jiné/* --> daňová problematika/* (#575)
+účetnictví/jiné/daně/dani_zahrnuty.rst aplikace/finance/účetnictví/daňová problematika/daně/dani_zahrnuty.rst                     # jiné/* --> daňová problematika/* (#575)
+účetnictví/jiné/daně/daňová_oblaka.rst aplikace/finance/účetnictví/daňové/daně/daňová_oblaka.rst                                      # jiné/* --> daňové/* (#575)
+účetnictví/platby/nezařazené/výdaje zaměstnanců --> výdaje na zaměstnance
+účetnictví/jiné/reporting/přizpůsobit.rst aplikace/finance/účetnictví/reporting/přehled/přizpůsobit.rst                             # jiné/reporting/* --> reporting/přehled/*
+účetnictví/jiné/reporting/hlavní zprávy.rst aplikace/finance/účetnictví/reporting/přehled/hlavní zprávy.rst                       # jiné/reporting/* --> reporting/přehled/*
+účetnictví/daňová evidence/doklady/daňové přiznání.rst aplikace/finance/účetnictví/reporting/doklady/daňové přiznání.rst                      # daňová evidence/* --> reporting/doklady/*
+účetnictví/banka/nastavení/vytvořit_bankovní_účet.rst aplikace/finance/účetnictví/banka/nastavení/bankovní_účty.rst                        # create_bank_account -> bankovní účty
+účetnictví/lokalizace.rst aplikace/finance/účetnictví/fiskální lokality/lokalizace.rst                                               # lokalizace --> fiskální lokality/lokalizace
+účetnictví/lokalizace/Argentina.rst aplikace/Finance/Účetnictví/Daňové lokalizace/Lokalizace/Argentina.rst                         # lokalizace/* --> daňové lokalizace/Lokalizace/*
+účetnictví/lokalizace/kolumbie.rst aplikace/finance/účetnictví/fiskální lokalizace/lokalizace/kolumbie.rst                  # lokalizace/* --> fiskální lokalizace/lokalizace/*
+účetnictví/lokalizace/kolumbie_es.rst aplikace/finance/účetnictví/fiskální lokalizace/lokalizace/kolumbie_es.rst # lokalizace/* --> fiskální lokalizace/lokalizace/*
+účetnictví/lokalizace/francie.rst aplikace/finance/účetnictví/fiskální lokality/lokalizace/francie.rst                      # lokalizace/* --> fiskální lokality/lokalizace/*
+účetnictví/lokalizace/Německo.rst aplikace/finance/účetnictví/fiskální lokalizace/lokalizace/Německo.rst                    # lokalizace/* --> fiskální lokalizace/lokalizace/*
+účetnictví/lokalizace/italy_IT.rst aplikace/finance/účetnictví/fiskální lokality/lokalizace/italy_IT.rst                  # lokalizace/* --> fiskální lokality/lokalizace/*
+účetnictví/lokalizace/mexiko.rst aplikace/finance/účetnictví/fiskální lokalizace/lokalizace/mexiko.rst                      # lokalizace/* --> fiskální lokalizace/lokalizace/*
+účetnictví/lokalizace/nizozemsko.rst aplikace/finance/účetnictví/fiskální lokalizace/lokalizace/nizozemsko.rst            # lokalizace/* --> fiskální lokalizace/lokalizace/*
+účetnictví/lokalizace/španělsko.rst aplikace/finance/účetnictví/fiskální lokalizace/lokalizace/španělsko.rst                        # lokalizace/* --> fiskální lokalizace/lokalizace/*
+účetnictví/lokalizace/švýcarsko.rst aplikace/finance/účetnictví/fiskální lokalizace/lokalizace/švýcarsko.rst            # lokalizace/* --> fiskální lokalizace/lokalizace/*
+účetnictví/platby/faktury od dodavatelů/faktury nebo účtenky.rst aplikace/finance/účetnictví/platby/faktury od dodavatelů/příjemky.rst # faktury nebo účtenky.rst -> příjemky.rst
+účetnictví/banka/srovnání/configure.rst aplikace/finance/účetnictví/banka/srovnání/srovnávací modely.rst # configure -> srovnávací modely (#613)
+účetnictví/příjmy/platby od zákazníků/kreditní karty.rst aplikace/finance/účetnictví/příjmy/platby od zákazníků/online_payment.rst # kreditní karty -> online_payment
+účetnictví/daňová problematika/daně/application.rst aplikace/finance/účetnictví/daňová problematika/daně/fiscal_positions.rst                        # daňová problematika/*/application -> daně/*/fiscal_positions
+účetnictví/daňová problematika/daně/vytvoření souboru create.rst aplikace/finance/účetnictví/daňová problematika/daně/daně.rst                                        # daňová problematika/*/create -> daně
+účetnictví/daňová problematika/daně/součástí daně aplikace/finance/účetnictví/daňová problematika/daně/daně.rst                     # daňová problematika/*/tax_included -> daňová problematika/*/taxe
+účetnictví/banka/různé/soubor.rst aplikace/finance/účetnictví/příjmy/platby zákazníků/soubor.rst                                    # banka/různé -> příjmy/platby zákazníků
+účetnictví/daňovost/účetní období/uzavření účetního období aplikace/finance/účetnictví/daňovost/účetní období/uzavření účetního období
+účetnictví/daňová evidence/daňový rok/daňový rok.rst aplikace/finance/účetnictví/daňová evidence/daňový rok/daňový rok.rst                  # daňová evidence/* -> daňová evidence/*
+účetnictví/daňová problematika/daně/B2B_B2C.rst aplikace/finance/účetnictví/daňová problematika/daně/B2B_B2C.rst                                   # daňová problematika/* -> daně/*
+účetnictví/daňová problematika/daně/účetnictví/daňová problematika/daň z příjmů fyzických osob/daň z příjmů fyzických osob.rst aplikace/finance/účetnictví/daňová problematika/daně/účetnictví/daňová problematika/daň z příjmů fyzických osob/daň z příjmů fyzických osob.rst                    # daňová problematika/* -> daně/*
+účetnictví/daňová problematika/dani/výchozí daně aplikace/finance/účetnictví/daňová problematika/daně/výchozí daně
+účetnictví/daňová problematika/daně/daňové pozice.rst aplikace/finance/účetnictví/daňová problematika/daně/daňové pozice.rst                    # daňová problematika/* -> daně/*
+účetnictví/daňovost/daně/zadržení.rst aplikace/finance/účetnictví/daňovost/daně/zadržení.rst                                      # daňovost/* -> daně/*
+účetnictví/daňová problematika/daně/taxcloud.rst aplikace/finance/účetnictví/daňová problematika/daně/taxcloud.rst                     # daňová problematika/* -> daně/*
+účetnictví/daňová problematika/daně/daňové úlevy/účetnictví/daňová problematika/daně/daňové úlevy/daňové úlevy.rst aplikace/finance/účetnictví/daňová problematika/daně/daňové úlevy/daňové úlevy.rst                                          # daňová problematika/* -> daně/*
+účetnictví/daňová problematika/daně/DPH_validace.rst aplikace/finance/účetnictví/daňová problematika/daně/DPH_validace.rst                        # daňová problematika/* -> daně/*
+
+administration/db_management/db_online.rst administration/maintain/odoo_online.rst            # /db_management/db_online -> /maintain/odoo_online
+administration/db_management/db_premise.rst administration/maintain/db_premise.rst           # /db_management/* -> /maintain/*
+administration/db_management/hosting_changes.rst administration/maintain/hosting_changes.rst # /db_management/* -> /maintain/*
+administrace/db_upgrade.rst administrace/upgrade/process.rst                                     # db_upgrade -> /upgrade/process
+administration/spravovat/enterprise.rst administration/spravovat/enterprise.rst                   # /* -> /maintain/*
+administrace/update.rst administrace/zajistit/update.rst                                     # administrativa/* -> administrativa/zajistit/*
+# administrace/instalace/instalace.rst administrace/instalace/instalace.rst                             # /* -> /instalace/*
+administrace/instalace/CDN.rst administrace/nasazení/CDN.rst                                   # /nasazení/* -> /instalací/*
+administrace/instalace/deploy.rst administrace/instalace/deploy.rst                              # /deployment/* -> /instalace/*
+administrace/instalace/email_gateway.rst administrace/provoz/email_gateway.rst          # /provoz/* -> /instal/*
+administrace/instalace/instal.rst administrace/instalace/instal.rst                             # /deployment/* -> /install/*
+správa/údržba/db_premise.rst správa/údržba/on_premise.rst                    # db_premise -> on_premise
+správa/údržba/db_upgrade.rst správa/upgrade/process.rst                                         # údržba/db_upgrade -> upgrade/process
+administrace/odoo_sh/pokročilé/upgrade_databáze.rst administrace/upgrade/odoo_sh.rst # odoo_sh/pokročilé/upgrade_databáze -> upgrade/odoo_sh
+aplikace/weby/web/publikovat/doménové_jméno.rst správa/údržba/doménových_jmen.rst
+administration/upgrade/process.rst  administration/upgrade.rst                                   # upgrade/process -> upgrade
+administrace/aktualizace/úrovně služeb.rst administrace/aktualizace.rst                            # aktualizace/úroveň služeb -> aktualizace
+
+crm/optimize/onsip.rst aplikace/obecné/voip/onsip.rst                                # crm/optimize/* --> obecné/voip/*
+crm/optimizovat/nastavit.rst aplikace/obecné/voip/asterisk.rst                     # crm/optimizovat/nastavení --> obecné/voip/asterisk
+
+developer/webservices/iap.rst                                developer/misc/api/iap.rst
+developer/webservices/odoo.rst                               developer/misc/api/odoo.rst
+developer/webservices/localizations.rst                  developer/misc/i18n/localization.rst
+developer/reference/translations.rst                        developer/misc/i18n/translations.rst
+developer/reference/cmdline.rst                               developer/misc/other/cmdline.rst
+developer/reference/pokyny.rst                                  developer/misc/jiné/pokyny.rst
+developer/reference/iot.rst                                   developer/misc/other/iot.rst
+developer/reference/actions.rst                             developer/reference/addons/actions.rst
+developer/reference/data.rst                                     developer/reference/addons/data.rst
+developer/reference/http.rst                                    developer/reference/addons/http.rst
+developer/odkaz/mixiny.rst                                      developer/odkaz/mixiny.rst
+developer/reference/modul.rst                                   developer/reference/doplňky/modul.rst
+developer/reference/orm.rst                                     developer/reference/addons/orm.rst
+developer/reference/reporty.rst                                developer/reference/doplňky/reporty.rst
+developer/reference/security.rst                                developer/reference/addons/security.rst
+developer/reference/testování.rst                             developer/reference/doplňky/testování.rst
+developer/reference/views.rst                                   developer/reference/addons/views.rst
+developer/reference/javascript_cheatsheet.rst                  developer/reference/javascript/javascript_cheatsheet.rst
+developer/reference/javascript_reference.rst                   developer/reference/javascript/javascript_reference.rst
+vývojář/odkaz/mobilní.rst                                        vývojář/odkaz/javascript/mobilní.rst
+developer/reference/qweb.rst                                    developer/reference/javascript/qweb.rst
+
+diskuse/monitoring.rst aplikace/produktivita/diskuse/přehled/začínáme.rst                             # (#655)
+diskuse/zmínky.rst aplikace/produktivita/diskuse/přehled/začněte.rst                                    # (#655)
+diskuze/sledování.rst aplikace/služby/projekt/úkoly/spolupráce.rst                                    # (#655)
+diskutovat/email_servers.rst aplikace/obecné/elektronická komunikace/email_servers.rst                   # (#655)
+diskutovat o aktivitách.rst aplikace/produktivita/diskutovat o aktivitách.rst                          # (#655)
+diskuze/komunikace.rst aplikace/produktivita/diskuze/přehled/komunikace.rst    # (#655)
+diskuse/přehled aplikací/produktivita/diskuse/přehled/začínáme.rst
+
+ecommerce/nákupní zážitek/platba.rst aplikace/finance/platební akvizice.rst                                          # ecommerce/nákupní zážitek/platba --> finance/platební akvizice/platební akvizice
+ecommerce/nákupní zkušenost/autorizace.rst aplikace/finance/akvizice/autorizace.rst                     # ecommerce/nákupní zkušenost/* --> finance/akvizice/*
+ecommerce/nákupní zážitek/paypal.rst aplikace/finance/akceptační společnosti/paypal.rst                           # ecommerce/nákupní zážitek/* --> finance/akceptační společnosti/*
+ecommerce/nákupní zážitek/bankovní převod.rst aplikace/finance/akceptační banky/bankovní převod.rst
+
+obecné/odoo_základy/přidat_uživatele.rst aplikace/obecné/odoo_základy/uživatelé.rst                             # add_user -> users
+
+helpdesk/getting_started.rst aplikace/služby/helpdesk/přehled/getting_started.rst                                   # (#565)
+pomocná služba/pozáruční servis aplikace/služby/pomocná služba/pokročilé/pozáruční servis aplikace/služby/pomocná služba.rst
+pomocná deska/zavřít požadavek.rst aplikace/služby/pomocná deska/pokročilé/zavřít požadavek.rst                            # (#565)
+pomocná deska/fakturační čas.rst aplikace/služby/pomocná deska/časové listy a faktury/fakturační čas.rst                    # (#565)
+helpdesk/reinvoice_from_project.rst aplikace/služby/helpdesk/časové a fakturační údaje/reinvoice_from_project.rst   # (#565)
+
+Inventář/Čárový kód/Operace/Dodání.rst aplikace/Inventář a MRP/Inventář/Čárový kód/Operace/Vnitřní.rst 							# dodání --> vnitřní (#436)
+Inventář/Čárový kód/Operace/Příjemky.rst aplikace/Inventář a MRP/Inventář/Čárový kód/Operace/Vnitřní.rst 							  				    # dodání --> vnitřní (#436)
+Inventář/Čárový kód/Operace/Sériové číslo.rst aplikace/Inventář a MRP/Inventář/Čárový kód/Operace/Vnitřní.rst 									    # dodání --> vnitřní (#436)
+Inventář/Čárový kód/Operace/Vnitřní.rst aplikace/Inventář a MRP/Inventář/Čárový kód/Operace/Vnitřní.rst 										   	    # dodání --> vnitřní (#436)
+Inventar/Routen/Kosten/Landkosten.rst Anwendungen/Inventar und MRP/Inventar/Verwaltung/Berichterstattung/Integration von Landkosten.rst 							    # Routen/Kosten/Landkosten --> Verwaltung/Berichterstattung/Integration von Landkosten (#503)
+Inventář/správa/různé/plánovače.rst aplikace/inventář_a_mrp/inventář/správa/plánování/plánovače.rst 									  		    # různé/* --> plánování/* (#443)
+Inventář/Nastavení/Produkty/Varianty.rst aplikace/Inventář a MRP/Inventář/Správa/Produkty/Varianty.rst 											    # nastavení/* --> správa/* (#424)
+Inventář/Řízení/Produkty/Varianty.rst Prodej/Produkty_ceny/Produkty/Varianty --> Prodej (#448)
+Inventar/Einstellungen/Produkte.rst Anwendungen/Inventar_und_MRP/Inventar/Verwaltung/Produkte.rst 																    # settings/* --> management/* (#424)
+Inventář/Nastavení/Produkty/Strategie.rst aplikace/Inventář a MRP/Inventář/Řízení/Produkty/Strategie.rst 										    # nastavení/* --> řízení/* (#424)
+Inventář/Nastavení/Produkty/Jednotka měření aplikace Inventář a MRP/Inventář/Správa/Produkty/Jednotka měření aplikace Inventář a MRP 															# nastavení/* --> správa/* (#424)
+Nastavení/Produkty/Použití.rst aplikace/Inventar a MRP/Inventar/Vedení/Produkty/Použití.rst 									  					# nastavení/* --> vedení/* (#424)
+Inventarizační/správa/úprava/min_stock_rule_vs_mto.rst aplikace/inventarizace a MRP/Inventarizace/Správa/Replenishment strategies/min_stock_rule_vs_mto.rst 	# úprava/* --> replenishment_strategies/* (#424)
+inventarizace/správa/vyrovnávání/virtuální sklady.rst aplikace/inventarizace a MRP/inventarizace/správa/replenishment strategies/virtuální sklady.rst 	# vyrovnávání/* --> replenishment_strategies/* (#424)
+Inventar/Einstellungen/Lagerorte.rst Anwendungen/Inventar und MRP/Inventar/Verwaltung/Lagerorte.rst 																# settings/* --> management/* (#424)
+Inventář/Nastavení/Sklady/Rozdíl skladu/location.rst aplikace/Inventář a MRP/Inventář/Řízení/Sklady/Rozdíl skladu/location.rst   # nastavení/* --> řízení/* (#424)
+inventář/nastavení/sklady/vytvoření_lokace.rst aplikace/inventář a MRP/inventář/správa/sklady/vytvoření_lokace.rst 							# nastavení/* --> správa/* (#424)
+Inventar/Verwaltung/Lieferung/Termine.rst Anwendungen/Inventar und MRP/Inventar/Verwaltung/Planung/Termine.rst 								# Lieferung/Termine --> Planung/Termine (#660)
+Inventarizace/Řízení/Plánování/Datum plnění.rst aplikace/Inventarizace a MRP/Inventarizace/Řízení/Plánování/Datum plnění.rst 									# Datum plnění --> Datumy plnění (#660)
+Inventář/Dopravní trasy/Koncept/Pravidlo nákupu.rst aplikace/Inventář a MRP/Inventář/Dopravní trasy/Koncepty/Použití dopravních tras.rst 												# Pravidlo nákupu --> použít dopravní trasy (#693)
+Inventář/Trasy/Koncept/Přesun pravidla.rst aplikace/Inventář a MRP/Inventář/Trasy/Koncepty/Použití tras (#693)
+seznam/cesty/koncepce/použití cest.rst aplikace/inventar a MRP/seznam/cesty/koncepty/použití cest.rst 												# použít cesty --> používat cesty (#693)
+
+iot/connect.rst aplikace/produktivita/iot/config/connect.rst
+iot/pos.rst aplikace/produktivita/iot/konfigurace/pos.rst 																					  					# /* --> konfig/* (#446)
+iot/iot_notfound.rst aplikace/produktivita/iot/konfigurace/iot_notfound.rst 																	  					# /* --> konfigurace/* (#446)
+iot/flash_sdcard.rst aplikace/produktivita/iot/konfigurace/flash_sdcard.rst 																								# /* --> konfig/* (#446)
+iot/devices/payment_terminal.rst aplikace/prodej/pokladna/platba/ingenico.rst 											  					# iot/devices/payment_terminal --> aplikace/prodej/pokladna/platba/ingenico (#446)
+
+livechat/livechat.rst aplikace/weby/livechat/přehled.rst    # livechat/* -> přehled/* (#601)
+
+předběžné/duplicita_a_předběžné.rst aplikace/služby/předběžné/přehled/duplicita_a_předběžné.rst    # (#567)
+příprava/odeslání plánovaných směn.rst aplikace/služby/příprava/přehled/odeslání plánovaných směn.rst     # (#567)
+
+příkazem point_of_sale/advanced/barcode.rst aplikace prodej/point_of_sale/shop/barcode.rst 												  					# advanced/* --> shop/* (#612)
+pokladna/pokročilé/více pokladníků.rst aplikace/prodej/pokladna/obchod/více pokladníků.rst 									  					# advanced/* --> shop/* (#612)
+příkazem point_of_sale/advanced/reprint.rst aplikace/prodej/point_of_sale/shop/účtenky.rst 												# advanced/* --> shop/* (#612)
+advanced/cash_rounding.rst aplikace/prodej/point_of_sale/shop/cash_rounding.rst 									  					# advanced/* --> shop/* (#612)
+obchodní místa/přehled/začínáme.rst aplikace/prodej/obchodní místa/přehled/začínáme.rst 														# start --> začínáme (#600)
+obchodní aplikace/prodej/vrácení zboží/obchodní aplikace/přehled/začínáme.rst 															# shop/refund --> overview/getting_started (#600)
+obchodní místo/analýza/statistiky.rst aplikace/prodej/obchodní místo/přehled/zahájení.rst 												# analyzujte/statistiku --> přehled/zahájení (#600)
+point_of_sale/advanced_pricing_features/manual_discount.rst aplikace/prodej/point_of_sale/advanced_pricing_features/discounts.rst 				# manual_discount --> discounts (#611)
+příslušenství pro pokladní systém/pokročilé funkce ceníku/sezónní slevy.rst aplikace/prodej/příslušenství pro pokladní systém/pokročilé funkce ceníku/slevy.rst 	# seasonal_discount --> discounts (#611)
+point_of_sale/restaurant/setup.rst aplikace/prodej/point_of_sale/restaurant/restaurant.rst 															# setup --> restaurant (#610)
+obchod/restaurace/stůl.rst aplikace/prodej/obchod/restaurace/restaurace.rst 															# stůl --> restaurace (#610)
+příkazů prodej/multi_orders.rst aplikace/prodej/point_of_sale/multi_orders.rst 														# multi_orders --> restaurant (#610)
+příjem/prodej/převod.rst aplikace/příjem/prodej/point_of_sale/restaurant/restaurant.rst 														# převod --> restaurace (#610)
+
+projekty/plánování/příkazy.rst aplikace/služby/projekty/plánování/předpověď.rst   # přiřazení/* -> předpověď/* (#583)
+projekt/přehled/základní pojmy/úvod.rst aplikace/služby/projekt/přehled/nastavení.rst                    # základní pojmy/* -> přehled/* (#581)
+Projekt/Konfigurace/Spolupráce.rst aplikace/služby/projekt/úkoly/spolupracovat.rst                     # Konfigurace/Spolupráce -> Úkoly/Spolupracovat (#581)
+projekt/aplikace/intro.rst aplikace/služby/projekt/fakturace/časový záznam.rst                        # aplikace/intro -> fakturace/časový záznam (#581)
+projekt/konfigurace/nastavení.rst aplikace/služby/projekt/přehled/nastavení.rst                            # konfigurace/nastavení -> přehled/nastavení (#581)
+Projekt/Konfigurace/Zobrazení.rst aplikace/služby/projekt/úkoly/začínáme.rst                              # Konfigurace/Zobrazení -> Úkoly/začínáme (#581)
+projekt/konfigurace/časový záznam.rst aplikace/služby/projekt/zaznamenání a fakturaci/časový záznam.rst  # konfigurace/časový záznam -> zaznamenání a fakturaci/časový záznam (#581)
+
+kvalita/kontrolní body.rst aplikace/inventarizace a MRP/kvalita/kontrola/kontrolní body.rst 														  					# /* --> kontrolní body/* (#469)
+kvalita aplikací inventář a MRP kvalita upozornění upozornění # /* --> upozornění (*)
+kvalita/upozorneni.rst aplikace/inventar-a-mrp/kvalita/upozorneni/upozorneni.rst 														  					# /* --> upozorneni/* (#469)
+kvalita aplikace inventar a mrp kvalita kontroly kvalita mo.rst
+kvalita/kvalitní převody.rst aplikace/inventarizace a MRP/kvalita/kontroly/kvalitní převody.rst 												  					# /* --> kontroly/* (#469)
+
+prodej/prodej_amazon.rst aplikace/prodej/prodej/amazon_connector.rst                    # prodej_amazon -> amazon_connector (#524)
+Prodej/prodej_amazon/apply.rst Příjem objednávek/Prodej/Prodej/amazon_connector/apply.rst    # prodej_amazon/* -> amazon_connector/* (#524)
+Prodej/prodej_amazon/nastavení.rst aplikace/prodej/prodej/amazon_konektor/nastavení.rst    # prodej_amazon/* -> amazon_konektor/* (#524)
+prodej/prodej_amazon/spravovat.rst aplikace/prodej/prodej/amazon_connector/spravovat.rst  # prodej_amazon/* -> amazon_connector/* (#524)
+prodej/amazon_connector/apply.rst aplikace/prodej/prodej/amazon_connector/update.rst # (#728)
+prodej/prodej_ebay.rst aplikace/prodej/prodej/ebay_connector.rst                      # prodej_ebay -> ebay_connektor (#524)
+prodej/ebay/setup.rst aplikace/prodej/prodej/ebay_connector/setup.rst                   # ebay/* přesunuto do ebay_connector/* (#524)
+Prodej/Ebay/Manage.rst aplikace/Prodej/Prodej/Ebay_Connector/Manage.rst           # Ebay/* přesunuto do Ebay_Connector/* (#524)
+Prodej/Odeslání nabídky/Volitelné položky.rst aplikace/Prodej/Prodej/Odeslání nabídky/Volitelné produkty.rst  # (#533)
+
+social_marketing/social_marketing.rst aplikace/marketing/social_marketing/přehled.rst     # social_marketing/* -> přehled/* (#578)

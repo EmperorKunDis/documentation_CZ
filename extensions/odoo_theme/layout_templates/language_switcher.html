@@ -1,0 +1,22 @@
+
+
+{%- if alternate_languages.length > 0 %}
+<button type="button" class="btn btn-sm dropdown-toggle"
+
+data-bs-toggle="dropdown">
+{{language}}{{#The current language #}}
+</tlačítko>
+{%- jinak %}
+<button type="button" class="btn btn-sm dropdown-toggle"
+
+disabled="">
+{{language}}{{#The current language #}}
+</tlačítko>
+{%- if %}
+<ul tříděný podle kategorií, označený jako „seznam jazyků“>
+{%- for alternate_language, language_code, url in alternate_languages %}
+<li><a class="o_switcher_item dropdown-item" href="{{ url }}">{{ alternate_language }}</a></li>
+{%- endfor %}
+
+
+</div>

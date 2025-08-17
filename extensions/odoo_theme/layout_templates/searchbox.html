@@ -1,0 +1,10 @@
+{# POZNÁMKA: ID „searchbox“ slouží k připojení tlačítka „Skrýt shodné výsledky vyhledávání“. #}
+<div id="searchbox" třída="o_search_wrapper" role="search" style="display: flex; flex-grow: 1;">
+<form class="o_search" action="{{ url('search') }}" method="get">
+
+<input type="hidden" name="area" value="default">
+<input type="hidden" name="check_keywords" value="ano">
+<button type="submit" class="btn"><i class="i-search"></i></button>
+
+</div>
+<script type="text/javascript">$('.o_search_wrapper').show(0);</script>

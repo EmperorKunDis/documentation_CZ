@@ -1,0 +1,234 @@
+# administrativa
+
+administrace/instal.rst administrace/na-předním-okraji.rst                                                          # instalace -> na předním okraji
+administration/instalace/nasazení.rst administration/na-pravech/nasazeni.rst                                     # instalace/* -> nasazení/*
+administration/instalace/email_gateway.rst administration/on-premise/email_gateway.rst                    # instalace/* -> na místě/*
+administrace/instalace/online.rst administrace/odoo_online.rst                                                # instalace/online -> odoo_online (sloučeno s odoo_online)
+administration/instalace/geo_ip.rst administration/na-předním-pozici/geo_ip.rst                                # instalace/* -> na předním pozici/*
+administration/instalace/balíčky.rst administration/na-předním-pozici/balíčky.rst                              # instalovat/* -> na přední pozici/*
+administration/instalace/zdroj.rst administration/na-předním-pozici/zdroj.rst                                    # instalace/* -> na-předním-pozici/*
+administrace/instalace/CDN.rst aplikace/weby/webová stránka/konfigurace/CDN.rst                             # administrace/instalace/* -> aplikace/weby/webová stránka/konfigurace/*
+správa/údržba/azure_oauth.rst aplikace/obecné/e-mailová komunikace/azure_oauth.rst                    # správa/údržba/* -> aplikace/obecné/e-mailová komunikace/*
+administrativa/údržba/doménové_názvy.rst aplikace/weby/webová stránka/konfigurace/doménové názvy.rst # administrativa/údržba/* -> aplikace/weby/webová stránka/konfigurace/*
+správa/údržba/podniková správa/na místě/komunita pro podniky->
+správa/údržba/google_oauth.rst aplikace/obecné/e-mailová komunikace/google_oauth.rst                     # správa/údržba/* -> aplikace/obecné/e-mailová komunikace/*
+správa/údržba/hosting_změny.rst správa/hosting.rst                                                             # správa/hosting_změny -> správa/hosting
+správa/údržba/mailjet_api.rst aplikace/obecné/e-mailová komunikace/mailjet_api.rst                     # správa/údržba/* -> aplikace/obecné/e-mailová komunikace/*
+administrace/údržba/odoo_online.rst administrace/odoo_online.rst                                             # údržba/* -> *
+administrace/správa/on_premise.rst administrace/instalace.rst                                                # správa/on_premise -> instalace
+správa/podporované verze.rst správa/podporované verze.rst                                                      # podpora/* -> *
+správa/údržba/aktualizace.rst správa/na-předním-pozemku/aktualizace.rst                                          # udržovat/* -> na předním pozemku/*
+
+# aplikace/finance
+
+applications/finance/accounting/bank/interbank.rst applications/finance/accounting/payments/internal_transfers.rst                                 # bank/interbank -> payments/internal_transfers
+applications/finance/accounting/bank/reconciliation/cash_transactions.rst applications/finance/accounting/bank/reconciliation_cash.rst             # bank/reconciliation/cash_transactions -> bank/reconciliation_cash
+applications/finance/accounting/bank/reconciliation/reconciliation_models.rst applications/finance/accounting/bank/reconciliation_models.rst       # bank/reconciliation/* -> bank/*
+applications/finance/accounting/bank/reconciliation/use_cases.rst applications/finance/accounting/bank/reconciliation.rst                          # reconciliation/use_cases -> reconciliation
+applications/finance/accounting/bank/setup/bank_accounts.rst applications/finance/accounting/bank.rst                                             # bank/setup/bank_accounts -> bank
+aplikace/Finance/Účetnictví/Banka/Nastavení/Měna cizí.rst aplikace/Finance/Účetnictví/Banka/Měna cizí.rst                          # bank/setup/* -> bank/*
+aplikace/finance/účetnictví/banka/nastavení/správa pokladny.rst aplikace/finance/účetnictví/banka/pokladna.rst                         # banka/nastavení/správa pokladny -> banka/pokladna
+applications/finance/accounting/bank/setup/outstanding_accounts.rst applications/finance/accounting/bank.rst                                     # bank/setup/outstanding_accounts -> bank
+applications/finance/accounting/getting_started/cheat_sheet.rst applications/finance/accounting/get_started/cheat_sheet.rst                        # getting_started/* -> get_started/*
+aplikace/finance/účetnictví/začínáme/předběžná konfigurace/rozvaha.rst aplikace/finance/účetnictví/začínáme/rozvaha.rst     # začínáme/předběžná konfigurace/* -> začínáme/*
+applications/finance/accounting/getting_started/initial_configuration/setup.rst applications/finance/accounting/get_started.rst                    # getting_started/initial_configuration/setup -> get_started
+aplikace/finance/účetnictví/začínáme/základní pojmy.rst aplikace/finance/účetnictví.rst                                                            # účetnictví/začínáme -> účetnictví
+applications/finance/accounting/getting_started/process_overview/customer_invoice.rst applications/finance/accounting/customer_invoices.rst        # getting_started/process_overview/customer_invoice -> customer_invoices
+applications/finance/accounting/getting_started/process_overview/supplier_bill.rst applications/finance/accounting/vendor_bills.rst                # getting_started/process_overview/supplier_bill -> vendor_bills
+aplikace/finance/účetnictví/jiné/poradce/rozpočet.rst aplikace/finance/účetnictví/reporting/rozpočet.rst                                     # jiné/poradce/* -> reporting/*
+applications/finance/accounting/others/analytic/purchases_expenses.rst applications/finance/accounting/reporting/analytic/purchases_expenses.rst   # others/analytic/* -> reporting/analytic/*
+aplikace/účetnictví/jiné/analytika/mzdy.rst aplikace/účetnictví/reporting/analytika/mzdy.rst                   # jiné/analytika/* -> reporting/analytika/*
+aplikace/účetnictví/jiné/analytické/použití.rst aplikace/účetnictví/reporting/analytické.rst                                   # jiné/analytické -> reporting/analytické
+aplikace/účetnictví/výkaznictví/jiné/sklad/průměrná cena/hodnota.rst aplikace/účetnictví/výkaznictví/začínáme/průměrná cena/hodnota.rst       # jiné/sklad/* -> začínáme/*
+aplikace/finance/účetnictví/jiné/multi_currency.rst aplikace/finance/účetnictví/začínáme/multi_currency.rst                             # jiné/* -> začínáme/*
+aplikace/účetnictví/měny/výměna.rst aplikace/účetnictví/začínáme/měny
+aplikace/finance/účetnictví/jiné/měny/jak_to_funguje.rst aplikace/finance/účetnictví/začínáme/měna.rst                 # jiné/měny/* -> začínáme/měna
+aplikace/finance/účetnictví/jiné/měny/faktury_a_platby.rst aplikace/finance/účetnictví/začínáme/měna.rst                    # jiné/měny/* -> začínáme/měna
+aplikace/finance/účetnictví/placení/nezařazené/prognózy aplikace/finance/účetnictví/placení/prognózy                                             # nezařazené/* -> placení/*
+applications/finance/accounting/payables/pay/check.rst applications/finance/accounting/payments/pay_checks.rst                                     # payables/pay/check -> payments/pay_checks
+applications/finance/accounting/payables/pay/multiple.rst applications/finance/accounting/payments/multiple.rst                                    # payables/pay/* -> payments/*
+aplikace/účetnictví/platby/placení/sepa.rst aplikace/účetnictví/platby/placení_sepa.rst                                                        # platby/placení -> placení_sepa
+applications/finance/accounting/payables/supplier_bills/assets.rst applications/finance/accounting/vendor_bills/assets.rst                            # payables/supplier_bills/* -> vendor_bills/*
+applications/finance/accounting/payables/supplier_bills/deferred_expenses.rst applications/finance/accounting/vendor_bills/deferred_expenses.rst       # payables/supplier_bills/* -> vendor_bills/*
+applications/finance/accounting/payables/supplier_bills/invoice_digitization.rst applications/finance/accounting/vendor_bills/invoice_digitization.rst # payables/supplier_bills/* -> vendor_bills/*
+applications/finance/accounting/payables/supplier_bills/ocr.rst applications/finance/accounting/vendor_bills/invoice_digitization.rst                  # payables/supplier_bills/ocr --> vendor_bills/invoice_digitization
+aplikace/účetnictví/fakturace/platby/více.rst aplikace/účetnictví/fakturace/platby.rst                                                 # účetnictví/platby/více --> účetnictví/platby.rst
+applications/finance/accounting/receivables/customer_invoices/cash_discounts.rst applications/finance/accounting/customer_invoices/cash_discounts.rst             # receivables/customer_invoices/* -> customer_invoices/*
+applications/finance/accounting/receivables/customer_invoices/cash_rounding.rst applications/finance/accounting/customer_invoices/cash_rounding.rst               # receivables/customer_invoices/* -> customer_invoices/*
+applications/finance/accounting/receivables/customer_invoices/credit_notes.rst applications/finance/accounting/customer_invoices/credit_notes.rst                 # receivables/customer_invoices/* -> customer_invoices/*
+applications/finance/accounting/receivables/customer_invoices/deferred_revenues.rst applications/finance/accounting/customer_invoices/deferred_revenues.rst       # receivables/customer_invoices/* -> customer_invoices/*
+applications/finance/accounting/receivables/customer_invoices/electronic_invoicing.rst applications/finance/accounting/customer_invoices/electronic_invoicing.rst # receivables/customer_invoices/* -> customer_invoices/*
+applications/finance/accounting/receivables/customer_invoices/epc_qr_code.rst applications/finance/accounting/customer_invoices/epc_qr_code.rst                   # receivables/customer_invoices/* -> customer_invoices/*
+applications/finance/accounting/receivables/customer_invoices/overview.rst applications/finance/accounting/customer_invoices/overview.rst                         # receivables/customer_invoices/* -> customer_invoices/*
+applications/finance/accounting/receivables/customer_invoices/payment_terms.rst applications/finance/accounting/customer_invoices/payment_terms.rst               # receivables/customer_invoices/* -> customer_invoices/*
+aplikace/účetnictví/fakturace/příjmy/dodavatelské faktury/snailmail.rst aplikace/účetnictví/fakturace/dodavatelské faktury/snailmail.rst                       # příjmy/* -> dodavatelské faktury/*
+applications/finance/accounting/receivables/customer_payments/batch.rst applications/finance/accounting/payments/batch.rst                         # receivables/customer_payments/* -> payments/*
+aplikace/účetnictví/fakturace/příjmy/platby zákazníků/soubor/batch_sdd.rst aplikace/účetnictví/platby/soubor/batch_sdd.rst                  # příjmy/platby zákazníků/* -> platby/*
+applications/finance/accounting/receivables/customer_payments/check.rst applications/finance/accounting/payments/checks.rst                        # receivables/customer_payments/check -> payments/checks
+aplikace/účetnictví/fakturace/příjmy/platby odběratelů/sledování -> platby/sledování
+applications/finance/accounting/receivables/customer_payments/online_payment.rst applications/finance/accounting/payments/online.rst               # receivables/customer_payments/online_payment -> payments/online
+aplikace/účetnictví/fakturace/příjmy/platby odběratelů/zaznamenání.rst aplikace/účetnictví/fakturace/platby.rst                            # příjmy/platby odběratelů/zaznamenání -> platby
+aplikace/účetnictví/reporting/hlášení/dph/intrastat.rst aplikace/účetnictví/reporting/intrastat.rst                                        # reporting/hlášení/* -> reporting/*
+applications/finance/accounting/reporting/declarations/tax_returns.rst applications/finance/accounting/reporting/tax_returns.rst                   # reporting/declarations/* -> reporting/*
+applications/finance/accounting/reporting/overview/customize.rst applications/finance/accounting/reporting/customize.rst                         # reporting/overview/* -> reporting/*
+applications/finance/accounting/reporting/overview/data_inalterability.rst applications/finance/accounting/reporting/data_inalterability.rst       # reporting/overview/* -> reporting/*
+applications/finance/accounting/reporting/overview/main_reports.rst applications/finance/accounting/reporting.rst                                # reporting/overview/main_reports -> reporting
+applications/finance/accounting/taxation/fiscal_year/close_fiscal_year.rst applications/finance/accounting/reporting/year_end.rst                  # taxation/fiscal_year/close_fiscal_year -> reporting/year_end
+applications/finance/accounting/taxation/fiscal_year/fiscal_year.rst applications/finance/accounting/reporting/year_end.rst                        # taxation/fiscal_year/fiscal_year -> reporting/year_end
+aplikace/finance/účetnictví/daňová problematika/daně/Avatax.rst aplikace/finance/účetnictví/daňová problematika/daně/Avatax.rst                                         # daňová problematika/* -> daně/*
+aplikace/účetnictví/daně/dph/DPH/B2B_B2C.rst aplikace/účetnictví/daně/dph/DPH/B2B_B2C.rst                                       # daňové/daně/* -> daně/*
+applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst applications/finance/accounting/taxes/cash_basis.rst                           # taxation/taxes/cash_basis_taxes -> taxes/cash_basis
+aplikace/účetnictví/daně/daň z příjmu/předpisy o dani z příjmů/výchozí předpisy o dani z příjmů -> daně
+aplikace/účetnictví/daně/daňový řád/dovozní clo/celní předpisy/evropské vzdálené prodeje.rst aplikace/účetnictví/daně/daňový řád/dovozní clo/celní předpisy/evropské vzdálené prodeje.rst
+aplikace/účetnictví/daně/daňové pozice.rst aplikace/účetnictví/daně/daňové pozice.rst                                                    # daně/* -> daně/*
+aplikace/účetnictví/daně/daňová evidence/daňové odvody/zadržení.rst aplikace/účetnictví/daně/daňová evidence/daňové odvody/zadržení.rst                                   # daňová evidence/* -> daně/*
+aplikace/účetnictví/daně/daňový doklad/doklady/taxcloud.rst aplikace/účetnictví/daně/daňový doklad/doklady/taxcloud.rst                            # daňové doklady/* -> daně/*
+aplikace/účetnictví/daně/daňové přiznání/dani/dani.rst aplikace/účetnictví/daně/daňové přiznání/dani/dani.rst                                    # daňové přiznání/* -> daně/*
+applications/finance/accounting/taxation/taxes/vat_validation.rst applications/finance/accounting/taxes/vat_verification.rst                       # daňové přiznání/daň z příjmu/dani/daně -> daňová kontrola
+applications/finance/accounting/taxes/vat_validation.rst applications/finance/accounting/taxes/vat_verification.rst                            # vat_validation -> vat_verification
+aplikace/finance/dokumenty.rst aplikace/produktivita/dokumenty.rst
+aplikace/finance/sign.rst aplikace/produktivita/sign.rst                                                                                             # finance/* -> produktivita/*
+
+# aplikace/obecné
+
+aplikace/obecné/autentizace/2fa.rst aplikace/obecné/uživatelé/2fa.rst                                             # autentizace/* -> uživatelé/*
+aplikace/obecné/autentizace/azure.rst aplikace/obecné/uživatelé/azure.rst                                         # autentizace/* -> uživatelé/*
+aplikace/obecné/autentizace/google.rst aplikace/obecné/uživatelé/google.rst                                        # autentizace/* -> uživatelé/*
+applications/general/auth/ldap.rst applications/general/users/ldap.rst                                          # auth/* -> users/*
+aplikace/obecné/souhrn e-mailů.rst aplikace/obecné/firmy/souhrn e-mailů.rst                                    # * -> firmy/*
+aplikace/obecné/e-mailová komunikace/vzor e-mailu.rst aplikace/obecné/firmy/vzor e-mailu.rst
+aplikace/obecné/export_import_data.rst aplikace/základní/export_import_data.rst                                   # obecná/* -> základní/*
+aplikace/obecné/geolokace.rst aplikace/obecné/integrace/geolokace.rst
+aplikace/obecné/in_app_purchase.rst aplikace/základní/in_app_purchase.rst                              # obecné/* -> základní/*
+applications/general/iot/config/flash_sdcard.rst applications/general/iot/config/updating_iot.rst                   # flash_sdcard --> updating_iot
+aplikace/obecné/platební karty/adyen.rst aplikace/finance/platební karty/adyen.rst
+applications/general/payment_acquirers/alipay.rst applications/finance/payment_acquirers/alipay.rst
+aplikace/obecné/platební karty/buckaroo.rst aplikace/finance/platební karty/buckaroo.rst
+applications/general/payment_acquirers/mollie.rst applications/finance/payment_acquirers/mollie.rst
+aplikace/obecné/platby/acquirer/ogone.rst aplikace/finance/platby/acquirer/ogone.rst
+aplikace/obecné/platební karty/sips.rst aplikace/finance/platební karty/sips.rst
+aplikace/obecné/uživatelé/firmy.rst aplikace/obecné/firmy.rst                                                       # uživatelé/* -> *
+aplikace/obecné/uživatelé/spravovat_uživatele.rst aplikace/obecné/uživatelé.rst                                    # uživatelé/spravovat_uživatele -> uživatelé
+aplikace/obecné/uživatelé/odoo_account.rst administrativa/odoo_accounts.rst
+
+aplikace/obecné/produkty/produkty_cena/produkty/produkty_obrazy.rst aplikace/prodej/prodej/produkty_ceny/produkty/produkty_obrazy.rst # opravit špatně nastavený cíl, který je v Odoo
+
+# applications/hr
+
+applications/hr/fleet/configuration.rst applications/hr/fleet.rst  # fleet/configuration -> fleet
+
+# aplikace/skladové hospodářství a MRP
+
+applications/inventory_and_mrp/inventory/management/warehouses/difference_warehouse_location.rst applications/inventory_and_mrp/inventory/management/warehouses/warehouses_locations.rst
+applications/inventory_and_mrp/inventory/routes/concepts/use-routes.rst applications/inventory_and_mrp/inventory/routes/concepts/use_routes.rst
+
+# aplikace/prodejní místo
+
+aplikace/prodej/příjem/obchod/reprint.rst aplikace/prodej/příjem/obchod/faktury.rst     # reprint -> faktury
+
+# aplikace/produktivita
+
+aplikace/produktivita/diskuse/pokročilé/ice_server.rst aplikace/produktivita/diskuse/pokročilé/ice_server.rst                        # diskuse/pokročilé/* -> diskuse/*
+aplikace/produktivita/diskuse/přehled/začínáme.rst aplikace/produktivita/diskuse.rst
+aplikace/produktivita/diskuse/přehled/plánování aktivit.rst aplikace/základní/aktivita.rst                                            # produktivita/diskuse/přehled/plánování aktivit -> základní/aktivita
+aplikace/produktivita/diskuse/přehled/týmová komunikace.rst aplikace/produktivita/diskuse/týmová komunikace.rst             # diskuse/přehled/* -> diskuse/*
+aplikace/produktivita/iot.rst aplikace/obecné/iot.rst                                                                                     # produktivita/* -> obecné/*
+aplikace/produktivita/iot/config.rst aplikace/obecné/iot/config.rst                                                                   # produktivita/* -> obecné/*
+aplikace/produktivita/iot/konfigurace/připojení.rst aplikace/obecné/iot/konfigurace/připojení.rst                                            # produktivita/* -> obecné/*
+aplikace/produktivita/iot/konfigurace/flash_sdcard.rst aplikace/obecné/iot/konfigurace/flash_sdcard.rst                          # produktivita/* -> obecné/*
+aplikace/produktivita/iot/konfigurace/https_certifikát_iot.rst aplikace/obecné/iot/konfigurace/https_certifikát_iot.rst                   # produktivita/* -> obecné/*
+aplikace/produktivita/iot/konfigurace/pos.rst aplikace/obecné/iot/konfigurace/pos.rst                                                    # produktivita/* -> obecné/*
+aplikace/produktivita/iot/konfigurace/řešení problémů.rst aplikace/obecné/iot/konfigurace/řešení problémů.rst                          # produktivita/* -> obecné/*
+aplikace/produktivita/iot/zařízení.rst aplikace/obecné/iot/zařízení.rst                                                             # produktivita/* -> obecné/*
+aplikace/produktivita/iot/zařízení/kamera.rst aplikace/obecné/iot/zařízení/kamera.rst                                              # produktivita/* -> obecné/*
+aplikace/produktivita/iot/zařízení/pedál.rst aplikace/obecné/iot/zařízení/pedál.rst                                          # produktivita/* -> obecné/*
+aplikace/produktivita/iot/zařízení/měřicí nástroj.rst aplikace/obecné/iot/zařízení/měřicí nástroj.rst                        # produktivita/* -> obecné/*
+aplikace/produktivita/iot/zařízení/tiskárna.rst aplikace/obecné/iot/zařízení/tiskárna.rst                                          # produktivita/* -> obecné/*
+aplikace/produktivita/iot/zařízení/skalár.rst aplikace/obecné/iot/zařízení/skalár.rst                                                   # produktivita/* -> obecné/*
+aplikace/produktivita/iot/zařízení/obrazovka.rst aplikace/obecné/iot/zařízení/obrazovka.rst                                            # produktivita/* -> obecné/*
+aplikace/produktivita/mail_plugins.rst aplikace/obecné/integrace/mail_plugins.rst                                                # produktivita/* -> obecné/integrace/*
+aplikace/produktivita/poštovní doplňky/gmail.rst aplikace/obecné/integrace/poštovní doplňky/gmail.rst                               # produktivita/* -> obecné/integrace/*
+aplikace/produktivita/poštovní pluginy/outlook.rst aplikace/obecné/integrace/poštovní pluginy/outlook.rst                         # produktivita/* -> obecné/integrace/*
+aplikace/produktivita/studio/koncepty/pochopení automatizovaných akcí.rst aplikace/studio/automatizované akce.rst                    # produktivita/* -> *
+aplikace/produktivita/studio/koncepce/pochopení-obecné.rst aplikace/studio.rst                                                        # produktivita/* -> *
+aplikace/produktivita/studio/jak_na_to/export_import.rst aplikace/studio/modely_součásti_aplikace.rst                                   # produktivita/* -> *
+aplikace/produktivita/studio/použití případů/automatizované akce.rst aplikace/studio/automatizované akce.rst                            # produktivita/* -> *
+aplikace/produktivita/studio/použití případů/modelové pole.rst aplikace/studio/pole.rst                                             # produktivita/* -> *
+aplikace/produktivita/studio/použití případů/zobrazení.rst aplikace/studio/zobrazení.rst
+aplikace/produktivita/studia.rst aplikace/studia.rst                                                                               # produktivita/* -> *
+aplikace/produktivita/studio/automatizované akce.rst aplikace/produktivita/studio/automatizované akce.rst                                        # produktivita/* -> *
+aplikace/produktivita/studia/pole.rst aplikace/produktivita/studia/pole.rst
+aplikace/produktivita/studio/modely_součásti_aplikace.rst aplikace/produktivita/studio/modely_součásti_aplikace.rst
+aplikace/produktivita/studio/pdf_reporty.rst aplikace/produktivita/studio/pdf_reporty.rst
+aplikace/produktivita/studio/výhledy.rst aplikace/produktivita/studio/výhledy.rst                                                              # produktivita/* -> *
+aplikace/obecné/voip.rst aplikace/produktivita/voip.rst                                                                                # obecná*/ -> produktivní*/
+aplikace/obecné/voip/axivox.rst aplikace/produktivita/voip/axivox.rst                                                             # obecná/* -> produktivní/*
+aplikace/obecné/voip/integrace.rst aplikace/produktivita/voip/integrace.rst                                                     # obecná/* -> produktivní/*
+aplikace/obecné/voip/onsip.rst aplikace/produktivita/voip/onsip.rst                                                              # obecná/* -> produktivní/*
+aplikace/obecné/voip/převod_vpřed.rst aplikace/produktivita/voip/převod_vpřed.rst                                                    # obecná/* -> produktivní/*
+aplikace/obecné/voip/voip_widget.rst aplikace/produktivita/voip/voip_widget.rst                                                       # obecná/*/-> produktivní/*/
+
+# příjem žádostí a prodej
+
+aplikace/prodej/CRM/optimalizovat/Outlook_Extension.rst aplikace/obecné/integrace/poštovní pluginy/Outlook.rst
+aplikace/prodej/CRM/sledování vztahů/návštěvy potenciálních zákazníků/prospect_visits.rst aplikace/prodej/CRM/sledování vztahů/track_leads.rst                                   # track_leads/prospect_visits -> track_leads
+aplikace/prodej/pokladna/přehled/poznámka zákazníka.rst aplikace/prodej/pokladna.rst                                          # pokladna/přehled/poznámka zákazníka -> pokladna
+applications/sales/point_of_sale/payment/worldline.rst applications/sales/point_of_sale/payment_methods/terminals/worldline.rst # point_of_sale/payment/* -> point_of_sale/payment_methods/terminals/*
+
+# aplikace/služby
+
+aplikace/služby/fsm/výchozí sklad.rst aplikace/služby/field_service/výchozí sklad.rst                   # fsm/* -> field_service/*
+
+# aplikace/weby
+
+aplikace/weby/webová stránka/reporting/dashboard google analytics.rst aplikace/weby/webová stránka/reporting/google analytics.rst
+aplikace/weby/webová stránka/konfigurace/geolokace IP adresy na místě/administrativa/na místě/geolokace IP adresy.rst
+aplikace/weby/webová stránka/konfigurace/unsplash.rst aplikace/obecné/integrace/unsplash.rst                                       # webové stránky/webová stránka/konfigurace/ -> obecné/integrace/*
+
+# přispívání/dokumentace
+
+přispívání/dokumentace/rst_cheat_sheet.rst přispívání/dokumentace/rst_guidelines.rst
+
+# vývojář/jak na to
+
+developer/jak_to_dělám/trénink_rozhraní/D_mixiny.rst developer/návody/mixiny.rst    # přehlednější dokumentace pro vývojáře
+/jak-to-dělám/trénink-rozhraní-pro-vývojáře/bezpečnost.rst /tutoriály/bezpečnost.rst
+developer/jak-na-to/temata.rst developer/jak-na-to/webové-temata.rst
+
+# developer/ostatní
+
+developer/misc/i18n/localization.rst                        developer/howtos/accounting_localization.rst
+developer/různé/i18n/překlady.rst                            developer/jakdokončit/překlady.rst
+
+# vývojář/odkaz
+
+developer/reference/addons.rst                                          developer/reference/backend.rst
+developer/reference/addons/actions.rst                               developer/reference/backend/actions.rst
+developer/odkaz/doplňky/aktiva.rst                                      developer/odkaz/back-end/aktiva.rst
+developer/reference/addons/data.rst                                    developer/reference/backend/data.rst
+developer/reference/addons/http.rst                                    developer/reference/backend/http.rst
+developer/reference/addons/mixins.rst                                developer/reference/backend/mixins.rst
+developer/odkaz/doplňky/modul.rst                                      developer/odkaz/zadní část/modul.rst
+developer/reference/addons/orm.rst                                     developer/reference/backend/orm.rst
+developer/reference/addons/reports.rst                               developer/reference/backend/reports.rst
+developer/reference/addons/security.rst                                developer/reference/backend/security.rst
+developer/reference/addons/testing.rst                                   developer/reference/backend/testing.rst
+developer/reference/addons/views.rst                                    developer/reference/backend/views.rst
+
+developer/reference/backend/assets.rst                               developer/reference/frontend/assets.rst
+
+developer/reference/frontend/generic_components.rst                   developer/reference/frontend/owl_components.rst
+developer/reference/frontend/owl_component_system.rst                   developer/reference/frontend/owl_components.rst
+
+developer/reference/javascript.rst                                      developer/reference/frontend.rst
+developer/reference/javascript/framework_overview.rst             developer/reference/frontend/framework_overview.rst
+developer/reference/javascript/javascript_modules.rst           developer/reference/frontend/javascript_modules.rst
+developer/reference/javascript/owl_component_system.rst            developer/reference/frontend/owl_component_system.rst
+developer/reference/javascript/registries.rst                        developer/reference/frontend/registries.rst
+developer/odkazy/javascript/služby.rst                                   developer/odkazy/frontend/služby.rst
+developer/reference/javascript/generic_components.rst                   developer/reference/frontend/generic_components.rst
+developer/reference/javascript/hooks.rst                             developer/reference/frontend/hooks.rst
+developer/reference/javascript/javascript_cheatsheet.rst         developer/reference/frontend/javascript_cheatsheet.rst
+developer/reference/javascript/javascript_reference.rst           developer/reference/frontend/javascript_reference.rst
+developer/reference/javascript/mobile.rst                            developer/reference/frontend/mobile.rst
+developer/reference/javascript/qweb.rst                             developer/reference/frontend/qweb.rst

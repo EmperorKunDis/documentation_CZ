@@ -1,0 +1,12 @@
+{# Celkový obsah dokumentu #}
+{#
+Zobrazit: https://www.sphinx-doc.org/en/master/templating.html#toctree
+kolaps: Zda se mají zobrazit pouze položky nabídky, které jsou součástí chleba.
+title_only: Zda se skrýt položky nabídky pro obsahové stránky (bez navigace v stromu).
+includehidden: Zda se mají zobrazit položky nabídky stránek uvnitř skryté navigace
+#}
+{#
+„collapse_menu“ je předávána přímo do Jinji pomocí možnosti sphinx-buildu „-A collapse_menu=True“.
+Je vyhodnocováno jako řetězec, takže skutečně hodnotíme „nebo není nula“.
+#}
+{{toctree(sbalit=sbalit_menu, zobrazit_pouze_nadpisy=Pravda, nezahrnovat_skryté=Nepravda)}}

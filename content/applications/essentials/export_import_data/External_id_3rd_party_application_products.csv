@@ -1,0 +1,6 @@
+Externí identifikátor, Jméno, Vnitřní odkaz, Kategorie / Externí identifikátor, Lze uplatnit jako výdaj, Lze zakoupit, Lze prodat, Prodejní cena, Náklady, Způsob dodání, Druh produktu, Metoda nákupu
+a6, Alu židle, ALS, a5, Předstíraná, Pravda, Pravda, 49.00, 25.00, Koupit, Skladovatelný produkt, Vyrábět na sklad
+a7,Křeslo,CHR,a5,Pravda,Pravda,Pravda,89.00,40.00,Koupit,Skladovatelný produkt,Udělat skladem
+a8,Tabulka,TBL,a4,Falešný,Pravda,Pravda,169.00,100.00,Koupit,Skladovatelný produkt,Udělat skladem
+a9,Návod k použití softwaru Book Tutorial,SBT,a2,Falešný,Pravda,Falešný,19.00,8.00,Koupit,Spotřební materiál,Dostupnost
+a10,Nafta,FL,a1,Pravda,Falešná,Falešná,0.30,0.25,Koupit,Služba,Vyrábět na sklad

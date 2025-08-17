@@ -1,0 +1,23 @@
+<div třída="o_hlavní_nadpis hranice-dole flex-align-items-center">
+<div třída="o_logo_wrapper">
+<a href="{{ pathto(master_doc) }}" class="o_logo">
+
+<span>dokumenty</span>
+
+
+<div class="d-flex flex-grow-1">
+{%- include "layout_templates/searchbox.html" %}
+
+
+</div>
+<div třída="o_subheader" class="border-bottom d-flex">
+
+<button třída="h-100 bez-hranice" typ="tlačítko" data-bs-toggle="složka" data-bs-target="#o_menu" role="button" aria-label="Přepínání navigace">
+<i class="i-sidepanel"></i>
+</tlačítko>
+
+<div třída="d-flex" vlastnost="justify-content-end" třída="ms-auto">
+{%- include "layout_templates/jazyk_vyber.html" %}
+{%- include "layout_templates/verze_změny.html" %}
+
+</div>

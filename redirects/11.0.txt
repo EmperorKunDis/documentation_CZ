@@ -1,0 +1,3 @@
+# přispívat
+
+přispívání/dokumentace/návody.rst přispívání/dokumentace/návody.rst

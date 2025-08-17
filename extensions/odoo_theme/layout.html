@@ -1,0 +1,100 @@
+{%- extends "základní/layout.html" %}
+
+
+
+{%- blok skriptů %}
+{%- pokud je 'custom-js' v metadatech, zobrazí se následující text:#
+{#Před vlastními soubory používajícími React a Immutable (účetní záznamy)#}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/immutable/3.8.2/immutable.min.js"
+integrita="sha512-myCdDiGJRYrvRb/VuJ67ljifYTJdc1jdEvL4c4ftX9o3N6EAnmD83c/7l2/91RCINZ7c8w21tiXDT7RDFjdc3g=="
+crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.0/react-with-addons.min.js"
+integrita="sha512-wsnDgOxfyn4lhblRMHPMuJh+9CnLcwcisda1zLRGNWKh6OiQynebYTyRZYgH+eWLEdNTKak0OD2GAd/S51UhTw=="
+crossorigin="anonymous"></script>
+<script src="{{ pathTo('_static/js/atom.js', 1)}}"></script>
+{%- set js_files = meta['custom-js'].split(',') %}
+{%- for js_file in js_files %}
+{%- set link = '_static/js/' + js_file %}
+<script src="{{ pathto(link, 1) }}"></script>
+{%- endfor %}
+{%- if %}
+{{ super() }} {# Nahrát skripty specifikované v rozšířeních / tématech #}
+{%- pokud je k dispozici skript Plausible -%}
+
+{%- endif -%}
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js">
+integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+crossorigin="anonymous"></script>
+{%- endblock %}
+
+
+
+
+
+{%- blok nadpisu %}
+<noScript>
+<nav class="o_side_nav border-end">
+{%- include "layout_templates/menu.html" %}
+</nav>
+
+{#Zobrazeno, pokud jsme správně nastavili všechny třídy na prvky obsahu#}
+<nav id="o_menu" class="o_side_nav">
+<div třída="o_mobilní-překryv" data-bs-toggle="collapse" data-bs-target="#o_menu">
+
+{%- pokud 'skrýt stránku obsahu' není v metadatech %}
+{#Zobrazeno, pokud jsme správně nastavili všechny třídy na prvky obsahu#}
+
+{%- include "layout_templates/page_toc.html" %}
+</odstavec>
+{%- if %}
+<div id="o_main_toctree" třída="o_main_toc" ukryté>
+{%- include "layout_templates/menu.html" %}
+</div>
+
+
+<hlavička třídy o_head>
+{%- include "layout_templates/header.html" %}
+
+{%- endblock %}
+
+
+
+{%- if ('show-content' v metadatech a 'show-toc' neobsahuje) %} {#Stránka je přístupným obsahem toctree #}
+
+{%- pokud je v metadatech položka „kódová sloupec“, pak obsahuje stránku blok dynamického obsahu (mementa)
+
+{%- pokud existuje vlastnost „třídy“, pak {%- nastavíme hlavní třídy na hodnotu hlavních tříd plus rozdělených tříd z metadat stránky %}
+
+{%- if 'hide-page-toc' v metadatech %}
+
+<hlavní třída="obal fluid {{ ' '.join(hlavní_třídy) }}">
+{%- pokud je název stránky stejný jako název hlavní dokumentace, zobrazí se následující text:
+{#Přizpůsobená přistávací stránka na kořenové úrovni dokumentace#}
+{%- include "layout_templates/homepage.html" %}
+{%- else if pagename == 'právní' %}
+{%- include "layout_templates/legal.html" %}
+{%- else %}
+
+
+
+</div>
+
+<a href="{{ github_link(režim='editace') }}"
+class="o_git_link d-none d-lg-inline-block">
+<i class="i-edit"></i> Upravit na GitHubu
+
+{% if not is_valid %}
+</článek>
+{%- if %}
+
+{%- pokud 'skrýt stránku obsahu' není v metadatech %}
+{#Zobrazeno, pokud je JavaScript nastaven správně pro všechny elementy obsahu#}
+<aside id="o_page_toc" třída="o_page_toc" skrytý>
+{%- include "layout_templates/page_toc.html" %}
+</odstavec>
+{%- if %}
+
+</footer>
+{%- include "layout_templates/footer.html" %}
+
+{%- endblock %}

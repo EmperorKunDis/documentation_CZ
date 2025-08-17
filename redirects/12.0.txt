@@ -1,0 +1,16 @@
+# administrativa
+
+administrace/odoo_sh/dokumentace.rst administrace/odoo_sh.rst # přesunutá během apokalypsy dokumentů (#945)
+
+# přispívat
+
+přispívání/dokumentace/úvodní průvodce.rst přispívání/dokumentace.rst # srovnat hierarchii: úvodní průvodce --> ../
+
+# developer
+
+Vývojář/Různé/API/Upgrade.rst Správa/Upgrade/Proces.rst # odstraněna nesprávná stránka
+Vývojář/Webové služby/Aktualizace/Upgrade.rst Správa/Aktualizace/Proces.rst # odstraněna špatná stránka
+
+# ostatní
+
+podpora/uživatelská dokumentace/úvodní průvodce.rst přispívání/dokumentace/úvodní průvodce.rst

@@ -1,0 +1,117 @@
+
+
+<h1 class="text-white">{{ _("Dokumentace Odoo") }}</h1>
+
+<část>
+<div class="row gx-lg-5">
+<div class="col-lg-6">
+
+
+
+
+<li>
+
+{{ "Účetnictví" }}
+
+</li>
+<li>
+<a href="{{ pathto('aplikace/sklad a výroba/Sklad') }}" class="stretched-link">
+{{ "Sklad" }}
+
+</li>
+<li>
+<a href="{{ pathto('aplikace/sklad a výroba/výroba') }}" class="stretched-link">
+{{ "Výroba" }}
+
+</li>
+<li>
+
+
+
+</li>
+</ul>
+</div>
+<div class="col-lg-6">
+
+
+
+
+<li>
+
+{{ "Instalace Odoo" }}
+
+</li>
+<li>
+<a href="{{ pathTo('administration/maintain/update') }}" class="stretched-link">
+{{ _("Opravy chyb") }}
+
+</li>
+<li>
+<a href="{{ pathTo('administration/upgrade') }}" class="stretched-link">
+{{ "Aktualizace Odoo" }}
+
+</li>
+<li>
+<a href="{{ pathTo('administration/odoo_sh/overview/introduction') }}" class="stretched-link">
+{{ "Odoo.sh: Cloudová platforma Odoo" }}
+
+</li>
+</ul>
+</div>
+
+<div class="row gx-lg-5">
+<div class="col-lg-6">
+
+
+
+
+<li>
+
+{{ _("Návody") }}
+
+</li>
+<li>
+<a href="{{ pathTo('developer/howtos') }}" class="stretched-link">
+{{ _("Návody") }}
+
+</li>
+<li>
+
+{{ _("Poznámka") }}
+
+</li>
+<li>
+<a href="{{ pathTo('developer/reference/external_api') }}" class="stretched-link">
+{{ _("Externí API") }}
+
+</li>
+</ul>
+</div>
+<div class="col-lg-6">
+
+
+
+
+<li>
+
+{{ _("Pravidla pro kódování") }}
+
+</li>
+<li>
+<a href="{{ pathTo('contributing/documentation') }}" class="stretched-link">
+{{ _("Dokumentace") }}
+
+</li>
+<li>
+
+{{ "Pravidla obsahu" }}
+
+</li>
+</ul>
+</div>
+
+
+{# Pokud existuje změnová kniha, tak ji sem vložte.}
+{% include "layout_templates/changelog.html" %}
+    {#}
+</div>

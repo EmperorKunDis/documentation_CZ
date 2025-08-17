@@ -1,0 +1,14 @@
+{%- extends "základní/vyhledávání.html" %}
+
+Toto je přepracovaná stránka vyhledávání základního tématu.
+Původní stránka obsahovala statickou sekci „Výsledky vyhledávání“, která vždy nahradila
+JS, takže se zde nezobrazuje.
+{%- blok tělo %}
+
+<script>$('#fallback').hide();</script>
+
+{%- trans %}Prosím aktivujte JavaScript, abyste mohli vyhledávat.{%- endtrans %}
+
+</div>
+<div id="search-results"></div>
+{%- endblock %}
